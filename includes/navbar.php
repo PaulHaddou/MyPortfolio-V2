@@ -25,6 +25,5 @@
         </div>
     </div>
     <div class="navbar-rightSpace"></div>
-
-
 </div>
+<span class="navbar_background"></span>

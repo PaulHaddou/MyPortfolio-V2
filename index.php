@@ -7,6 +7,9 @@
     <title>Paul Haddou</title>
     <link href="https://fonts.googleapis.com/css?family=Alegreya:400,500,700,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/navbar.min.css">
+    <link rel="stylesheet" href="styles/projects.min.css">
+    <link rel="stylesheet" href="styles/footer.min.css">
+
 </head>
 <body>
     <?php 
@@ -22,7 +25,83 @@
         
         include 'includes/navbar.php'
     ?>
-    <div></div>
+    <div class="main">
+        <div class="main_projects">
+            <div class="projects_project">
+                <a href="#">
+                    <img src="images/accio.png" alt="Photo du projet Accio">
+                </a>
+                <div class="project_description">
+                    <p>Accio - H4CK 4 HELP</p>
+                    <p>Design UI/UX - Prototypage</p>
+                </div>
+            </div>
+            <div class="projects_project">
+                <a href="#">
+                    <img src="images/accio.png" alt="Photo du projet Accio">
+                </a>
+                <div class="project_description">
+                    <p>Accio - H4CK 4 HELP</p>
+                    <p>Design UI/UX - Prototypage</p>
+                </div>
+            </div>
+            <div class="projects_project">
+                <a href="#">
+                    <img src="images/accio.png" alt="Photo du projet Accio">
+                </a>
+                <div class="project_description">
+                    <p>Accio - H4CK 4 HELP</p>
+                    <p>Design UI/UX - Prototypage</p>
+                </div>
+            </div>
+            <div class="projects_project">
+                <a href="#">
+                    <img src="images/accio.png" alt="Photo du projet Accio">
+                </a>
+                <div class="project_description">
+                    <p>Accio - H4CK 4 HELP</p>
+                    <p>Design UI/UX - Prototypage</p>
+                </div>
+            </div>
+            <div class="projects_project">
+                <a href="#">
+                    <img src="images/accio.png" alt="Photo du projet Accio">
+                </a>
+                <div class="project_description">
+                    <p>Accio - H4CK 4 HELP</p>
+                    <p>Design UI/UX - Prototypage</p>
+                </div>
+            </div>
+            <div class="projects_project">
+                <a href="#">
+                    <img src="images/accio.png" alt="Photo du projet Accio">
+                </a>
+                <div class="project_description">
+                    <p>Accio - H4CK 4 HELP</p>
+                    <p>Design UI/UX - Prototypage</p>
+                </div>
+            </div>
+            <div class="projects_project">
+                <a href="#">
+                    <img src="images/accio.png" alt="Photo du projet Accio">
+                </a>
+                <div class="project_description">
+                    <p>Accio - H4CK 4 HELP</p>
+                    <p>Design UI/UX - Prototypage</p>
+                </div>
+            </div>
+            <div class="projects_project">
+                <a href="#">
+                    <img src="images/accio.png" alt="Photo du projet Accio">
+                </a>
+                <div class="project_description">
+                    <p>Accio - H4CK 4 HELP</p>
+                    <p>Design UI/UX - Prototypage</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php include 'includes/footer.php' ?>
     
     <script src="sources/sectionsUnderlines.js"></script>
 </body>

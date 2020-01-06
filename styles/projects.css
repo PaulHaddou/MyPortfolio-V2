@@ -1,0 +1,85 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body .main {
+  width: 100%;
+  height: 51vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+body .main .main_projects {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+body .main .main_projects .projects_project {
+  background-color: #07071C;
+  width: 300px;
+  height: 160px;
+  transition: all 1s ease;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+body .main .main_projects .projects_project a {
+  width: 100%;
+  height: 100%;
+}
+
+body .main .main_projects .projects_project a img {
+  width: 100%;
+}
+
+body .main .main_projects .projects_project .project_description {
+  width: 100%;
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #07071C;
+  transition: all 1s ease;
+}
+
+body .main .main_projects .projects_project .project_description p:nth-child(1) {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: 'Alegreya', serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+body .main .main_projects .projects_project .project_description p:nth-child(2) {
+  padding: 0;
+  margin: 0;
+  color: #9C9CA4;
+  font-family: 'Alegreya', serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+body .main .main_projects .projects_project:hover .project_description {
+  transform: translateY(-100%);
+  transition: all 1s ease;
+}
+
+body .main .main_projects:hover .projects_project:hover {
+  opacity: 1;
+  transition: all 1s ease;
+}
+
+body .main .main_projects:hover .projects_project {
+  opacity: 0.3;
+  transition: all 1s ease;
+}

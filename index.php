@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="styles/navbar.min.css">
     <link rel="stylesheet" href="styles/projects.min.css">
     <link rel="stylesheet" href="styles/footer.min.css">
+    <link rel="stylesheet" href="styles/navbarMobile.min.css">
+
 
 </head>
 <body>
@@ -23,7 +25,9 @@
         $spanDisable = '<span class="spanDisable" ></span>';
         $spanActiv = '<span class="spanActiv" ></span>';
         
-        include 'includes/navbar.php'
+        include 'includes/navbar.php';
+        include 'includes/navbarMobile.php'
+
     ?>
     <div class="main">
         <div class="main_projects">
@@ -103,6 +107,6 @@
     </div>
     <?php include 'includes/footer.php' ?>
     
-    <script src="sources/sectionsUnderlines.js"></script>
+    <script src="sources/burger.js"></script>
 </body>
 </html>

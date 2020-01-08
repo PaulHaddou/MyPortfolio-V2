@@ -1,7 +1,7 @@
 <div class="navbar">
     <div class="navbar-leftSpace"></div>
     <div class="navbar-logo">
-        <a href="#">HP</a>
+        <a href="<?= $hrefProjects ?>">HP</a>
     </div>
     <div class="navbar-midSpace"></div>
     <div class="navbar-sections">

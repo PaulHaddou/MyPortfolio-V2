@@ -8,19 +8,19 @@
         <div class="sections-links">
             <div>
                 <a href="<?= $hrefProjects ?>">Tous les projets</a>
-                <?= $spanProjects ?>
+                <?= $spanActiv ?>
             </div>
             <div>
                 <a href="<?= $hrefDev ?>">Développement</a>
-                <?= $spanDev ?>
+                <?= $spanDisable ?>
             </div>
             <div>
                 <a href="<?= $hrefDesign ?>">Design</a>
-                <?= $spanDesign ?>
+                <?= $spanDisable ?>
             </div>
             <div>
                 <a href="<?= $hrefAbout ?>">À propos</a>
-                <?= $spanAbout ?>
+                <?= $spanDisable ?>
             </div> 
         </div>
     </div>

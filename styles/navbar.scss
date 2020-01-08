@@ -64,12 +64,27 @@ body
                         color: #07071C;
                         text-decoration: none; 
                     }
+                    span 
+                    {
+                        height: 4px;
+                        background-color: #07071C;
+                        transition: all 1s ease;
+                    }
+                    .spanActiv
+                    {
+                        width: 100%;
+                        background-color: #07071C;
+                    }
+                    .spanDisable
+                    {
+                        width: 0%;
+                        transition: all 1s ease;
+                    }
                 }
-                div .spanActiv
+                div:hover .spanDisable
                 {
-                    height: 8px;
                     width: 100%;
-                    background-color: #07071C;
+                    transition: all 1s ease;
                 }
             }
         }

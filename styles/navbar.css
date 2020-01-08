@@ -69,10 +69,25 @@ body .navbar .navbar-sections .sections-links div a {
   text-decoration: none;
 }
 
+body .navbar .navbar-sections .sections-links div span {
+  height: 4px;
+  background-color: #07071C;
+  transition: all 1s ease;
+}
+
 body .navbar .navbar-sections .sections-links div .spanActiv {
-  height: 8px;
   width: 100%;
   background-color: #07071C;
+}
+
+body .navbar .navbar-sections .sections-links div .spanDisable {
+  width: 0%;
+  transition: all 1s ease;
+}
+
+body .navbar .navbar-sections .sections-links div:hover .spanDisable {
+  width: 100%;
+  transition: all 1s ease;
 }
 
 body .navbar .navbar-rightSpace {

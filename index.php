@@ -20,8 +20,8 @@
         $hrefAbout = 'pages/about/index.php';
     
         // Allows you to correctly indicate in the navbar in which section you are
-        $spanAbout = $spanDev = $spanDesign = '';
-        $spanProjects = '<span class="spanActiv" ></span>';
+        $spanDisable = '<span class="spanDisable" ></span>';
+        $spanActiv = '<span class="spanActiv" ></span>';
         
         include 'includes/navbar.php'
     ?>

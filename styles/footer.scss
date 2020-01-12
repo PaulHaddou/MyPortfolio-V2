@@ -5,10 +5,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
     .footer_footerContainer
     {
         width: 40%;
-        height: 6vw;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
@@ -48,7 +48,7 @@
             width: 100%;
             display: flex;
             justify-content: center;
-            margin: 0;
+            margin: 20px 0 0 0;
             color: #9C9CA4;
             font-family: 'Alegreya', serif;
             font-size: 13px;
@@ -60,3 +60,40 @@
         }
     }
 }
+
+/////////////////////////////////
+////////Responsive Mobile///////
+////////////////////////////////
+
+
+
+@media screen and (max-width: 900px)
+{
+    body 
+    {
+        .footer
+        {
+            .footer_footerContainer
+            {
+                width: 75%; 
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1100px)
+{
+    body 
+    {
+        .footer
+        {
+            .footer_footerContainer
+            {
+                position: absolute;
+                bottom: 0;
+                width: 75%; 
+            }
+        }
+    }
+}
+  

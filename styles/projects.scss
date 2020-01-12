@@ -84,3 +84,26 @@ body
         }
     }
 }
+
+
+
+
+/////////////////////////////////
+////////Responsive Mobile///////
+////////////////////////////////
+
+
+
+@media screen and (max-width: 900px)
+{
+    body 
+    {
+        .main
+        {
+            .main_projects
+            {
+                justify-content: center;
+            }
+        }
+    }
+}

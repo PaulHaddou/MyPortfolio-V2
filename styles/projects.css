@@ -83,3 +83,9 @@ body .main .main_projects:hover .projects_project {
   opacity: 0.3;
   transition: all 1s ease;
 }
+
+@media screen and (max-width: 900px) {
+  body .main .main_projects {
+    justify-content: center;
+  }
+}

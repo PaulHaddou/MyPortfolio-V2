@@ -1,29 +1,28 @@
 <div class="navbar">
-    <div class="navbar-leftSpace"></div>
-    <div class="navbar-logo">
-        <a href="<?= $hrefProjects ?>">HP</a>
-    </div>
-    <div class="navbar-midSpace"></div>
-    <div class="navbar-sections">
-        <div class="sections-links">
-            <div>
-                <a href="<?= $hrefProjects ?>">Tous les projets</a>
-                <?= $spanActiv ?>
+    <div class="navbar_navbar">
+        <div class="navbar-logo">
+            <a href="<?= $hrefProjects ?>">HP</a>
+        </div>
+        <div class="navbar-sections">
+            <div class="sections-links">
+                <div>
+                    <a href="<?= $hrefProjects ?>">Tous les projets</a>
+                    <?= $spanProjects ?>
+                </div>
+                <div>
+                    <a href="<?= $hrefDev ?>">Développement</a>
+                    <?= $spanDev ?>
+                </div>
+                <div>
+                    <a href="<?= $hrefDesign ?>">Design</a>
+                    <?= $spanDesign ?>
+                </div>
+                <div>
+                    <a href="<?= $hrefAbout ?>">À propos</a>
+                    <?= $spanAbout ?>
+                </div> 
             </div>
-            <div>
-                <a href="<?= $hrefDev ?>">Développement</a>
-                <?= $spanDisable ?>
-            </div>
-            <div>
-                <a href="<?= $hrefDesign ?>">Design</a>
-                <?= $spanDisable ?>
-            </div>
-            <div>
-                <a href="<?= $hrefAbout ?>">À propos</a>
-                <?= $spanDisable ?>
-            </div> 
         </div>
     </div>
-    <div class="navbar-rightSpace"></div>
 </div>
 <span class="navbar_background"></span>

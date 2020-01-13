@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="../../styles/about/about.min.css">
         <link rel="stylesheet" href="../../styles/footer.min.css">
         <link rel="stylesheet" href="../../styles/navbarMobile.min.css">
+        <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
 
 
     </head>

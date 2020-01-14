@@ -20,11 +20,11 @@
         $hrefProjects = '#';
         $hrefdevelopment = 'pages/development/index.php';
         $hrefDesign = 'pages/design/index.php';
-        $hrefAbout = 'pages/about/index.php';
+        $hrefAbout = 'pages/à-propos/index.php';
     
         // Allows you to correctly indicate in the navbar in which section you are
-        $spanDisable = '<span class="spanDisable" ></span>';
-        $spanActiv = '<span class="spanActiv" ></span>';
+        $spanAbout = $spanDev = $spanDesign = '<span class="spanDisable" ></span>';
+        $spanProjects = '<span class="spanActiv" ></span>';
         
         include 'includes/navbar.php';
         include 'includes/navbarMobile.php'
@@ -33,12 +33,12 @@
     <div class="main">
         <div class="main_projects">
             <div class="projects_project">
-                <a href="#">
-                    <img src="images/accio.png" alt="Photo du projet Accio">
+                <a href="pages/projets/haddou-dufourcq/index.php">
+                    <img src="images/haddou-dufourcq.jpg" alt="Image du projet de site vitrine haddou-dufourcq.com">
                 </a>
                 <div class="project_description">
-                    <p>Accio - H4CK 4 HELP</p>
-                    <p>Design UI/UX - Prototypage</p>
+                    <p>Site Haddou-Dufourcq</p>
+                    <p>Front-End - Webmaster</p>
                 </div>
             </div>
             <div class="projects_project">

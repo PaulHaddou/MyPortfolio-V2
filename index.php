@@ -18,9 +18,9 @@
     <?php 
         // Links In the Navbar
         $hrefProjects = '#';
-        $hrefdevelopment = 'pages/development/index.php';
-        $hrefDesign = 'pages/design/index.php';
-        $hrefAbout = 'pages/à-propos/index.php';
+        $hrefdevelopment = 'pages/development/';
+        $hrefDesign = 'pages/design/';
+        $hrefAbout = 'pages/a-propos/';
     
         // Allows you to correctly indicate in the navbar in which section you are
         $spanAbout = $spanDev = $spanDesign = '<span class="spanDisable" ></span>';
@@ -33,7 +33,7 @@
     <div class="main">
         <div class="main_projects">
             <div class="projects_project">
-                <a href="pages/projets/haddou-dufourcq/index.php">
+                <a href="pages/projets/haddou-dufourcq/">
                     <img src="images/haddou-dufourcq.jpg" alt="Image du projet de site vitrine haddou-dufourcq.com">
                 </a>
                 <div class="project_description">
@@ -42,8 +42,8 @@
                 </div>
             </div>
             <div class="projects_project">
-                <a href="#">
-                    <img src="images/accio.png" alt="Photo du projet Accio">
+                <a href="pages/projets/accio/">
+                    <img src="images/accio.jpg" alt="Photo du projet Accio">
                 </a>
                 <div class="project_description">
                     <p>Accio - H4CK 4 HELP</p>
@@ -51,57 +51,12 @@
                 </div>
             </div>
             <div class="projects_project">
-                <a href="#">
-                    <img src="images/accio.png" alt="Photo du projet Accio">
+                <a href="pages/projets/paul-haddou/">
+                    <img src="images/paul-haddou.jpg" alt="Photo du projet de mon portfolio">
                 </a>
                 <div class="project_description">
-                    <p>Accio - H4CK 4 HELP</p>
-                    <p>Design UI/UX - Prototypage</p>
-                </div>
-            </div>
-            <div class="projects_project">
-                <a href="#">
-                    <img src="images/accio.png" alt="Photo du projet Accio">
-                </a>
-                <div class="project_description">
-                    <p>Accio - H4CK 4 HELP</p>
-                    <p>Design UI/UX - Prototypage</p>
-                </div>
-            </div>
-            <div class="projects_project">
-                <a href="#">
-                    <img src="images/accio.png" alt="Photo du projet Accio">
-                </a>
-                <div class="project_description">
-                    <p>Accio - H4CK 4 HELP</p>
-                    <p>Design UI/UX - Prototypage</p>
-                </div>
-            </div>
-            <div class="projects_project">
-                <a href="#">
-                    <img src="images/accio.png" alt="Photo du projet Accio">
-                </a>
-                <div class="project_description">
-                    <p>Accio - H4CK 4 HELP</p>
-                    <p>Design UI/UX - Prototypage</p>
-                </div>
-            </div>
-            <div class="projects_project">
-                <a href="#">
-                    <img src="images/accio.png" alt="Photo du projet Accio">
-                </a>
-                <div class="project_description">
-                    <p>Accio - H4CK 4 HELP</p>
-                    <p>Design UI/UX - Prototypage</p>
-                </div>
-            </div>
-            <div class="projects_project">
-                <a href="#">
-                    <img src="images/accio.png" alt="Photo du projet Accio">
-                </a>
-                <div class="project_description">
-                    <p>Accio - H4CK 4 HELP</p>
-                    <p>Design UI/UX - Prototypage</p>
+                    <p>Mon Portfolio</p>
+                    <p>Design UI/UX - Front-End</p>
                 </div>
             </div>
         </div>

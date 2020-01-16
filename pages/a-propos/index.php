@@ -17,9 +17,9 @@
     <body>
         <?php 
             // Links In the Navbar
-            $hrefProjects = '../..//index.php';
-            $hrefdevelopment = 'development/index.php';
-            $hrefDesign = 'design/index.php';
+            $hrefProjects = '../../';
+            $hrefdevelopment = 'development/';
+            $hrefDesign = 'design/';
             $hrefAbout = '#';
         
             // Allows you to correctly indicate in the navbar in which section you are
@@ -74,7 +74,7 @@
                     <div class="resume_infos">
                         <p class="infos_title">Resume</p>
                         <div class="infos_resumeButton">
-                            <a href="#">Consultez-le !</a>
+                            <a href="../../images/CV-Paul Haddou.pdf">Consultez-le !</a>
                         </div>
                     </div>
                 </div>

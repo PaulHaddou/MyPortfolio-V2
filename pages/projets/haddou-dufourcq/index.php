@@ -17,10 +17,10 @@
 <body>
     <?php 
         // Links In the Navbar
-        $hrefProjects = '../../../index.php';
-        $hrefdevelopment = '../../pages/development/index.php';
-        $hrefDesign = '../../pages/design/index.php';
-        $hrefAbout = '../../a-propos/index.php';
+        $hrefProjects = '../../../';
+        $hrefdevelopment = '../../pages/development/';
+        $hrefDesign = '../../pages/design/';
+        $hrefAbout = '../../a-propos/';
     
         // Allows you to correctly indicate in the navbar in which section you are
         $spanProjects = $spanAbout = $spanDev = $spanDesign = '<span class="spanDisable" ></span>';

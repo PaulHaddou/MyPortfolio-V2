@@ -17,7 +17,7 @@
 <body>
     <?php 
         // Links In the Navbar
-        $hrefProjects = '../../';
+        $hrefProjects = '../../../';
         $hrefdevelopment = '../../pages/development/';
         $hrefDesign = '../../pages/design/';
         $hrefAbout = '../../a-propos/';

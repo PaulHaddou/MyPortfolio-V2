@@ -32,6 +32,15 @@
     ?>
     <div class="main">
         <div class="main_projects">
+        <div class="projects_project">
+                <a href="pages/projets/mon-intro/">
+                    <video playsinline autoplay muted loop src="images/Intro_Paul-Haddou.mp4" alt="Motion de mon intro"></video>
+                </a>
+                <div class="project_description">
+                    <p>Mon Intro</p>
+                    <p>Motion Design</p>
+                </div>
+            </div>
             <div class="projects_project">
                 <a href="pages/projets/haddou-dufourcq/">
                     <img src="images/haddou-dufourcq.jpg" alt="Image du projet de site vitrine haddou-dufourcq.com">

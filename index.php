@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Paul Haddou</title>
     <link href="https://fonts.googleapis.com/css?family=Alegreya:400,500,700,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/navbar.min.css">
-    <link rel="stylesheet" href="styles/projects.min.css">
-    <link rel="stylesheet" href="styles/footer.min.css">
-    <link rel="stylesheet" href="styles/navbarMobile.min.css">
+    <link rel="stylesheet" href="styles/navbar/navbar.min.css">
+    <link rel="stylesheet" href="styles/all_projects/all_projects.min.css">
+    <link rel="stylesheet" href="styles/footer/footer.min.css">
+    <link rel="stylesheet" href="styles/navbarMobile/navbarMobile.min.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 

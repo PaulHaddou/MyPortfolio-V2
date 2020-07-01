@@ -20,7 +20,7 @@
         $hrefProjects = '../../../';
         $hrefdevelopment = '../../pages/development/';
         $hrefDesign = '../../pages/design/';
-        $hrefAbout = '../../a-propos/';
+        $hrefAbout = '../../about/';
     
         // Allows you to correctly indicate in the navbar in which section you are
         $spanProjects = $spanAbout = $spanDev = $spanDesign = '<span class="spanDisable" ></span>';

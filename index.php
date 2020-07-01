@@ -51,15 +51,6 @@
                 </div>
             </div>
             <div class="projects_project">
-                <a href="pages/projets/accio/">
-                    <img src="images/accio.jpg" alt="Photo du projet Accio">
-                </a>
-                <div class="project_description">
-                    <p>Accio - H4CK 4 HELP</p>
-                    <p>Design UI/UX - Prototypage</p>
-                </div>
-            </div>
-            <div class="projects_project">
                 <a href="pages/projets/paul-haddou/">
                     <img src="images/paul-haddou.jpg" alt="Photo du projet de mon portfolio">
                 </a>

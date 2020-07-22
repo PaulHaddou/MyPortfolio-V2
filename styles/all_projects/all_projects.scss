@@ -1,9 +1,10 @@
+@import '../root/root.scss';
 body
 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Alegreya', serif;
+    font-family: var(--Primary-Font);
     
 
     .main
@@ -21,22 +22,20 @@ body
             flex-wrap: wrap;
             .projects_project
             {
-                background-color: #07071C;
+                background-color: var(--Primary-Blue);
                 width: 18vw;
                 height: 11.25vw;
-                transition: all 1s ease;
+                transition: var(--Primary-Transition);
                 overflow: hidden;
                 display: flex;
                 flex-wrap: wrap;
                 margin-bottom: 80px;
-                box-shadow: 0px 4px 4px rgba(7, 7, 28, 0.09); 
+                box-shadow: var(--Projects-Widget-Shadow); 
                 a 
                 {
                     width: 100%;
                     height: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    @include Flex-Center-Center;
                     img 
                     {
                         width: 100%;
@@ -50,43 +49,33 @@ body
                 {
                     width: 100%;
                     height: 54px;
-                    display: flex;
+                    @include Flex-Center-Center;
                     flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
                     margin: 0;
-                    background-color: #07071C;
-                    transition: all 1s ease;
+                    background-color: var(--Primary-Blue);
+                    transition: var(--Primary-Transition);
                     p:nth-child(1) 
                     {
                         padding: 0;
                         margin: 0;
-                        color: #fff;
-                        font-family: 'Alegreya', serif;
-                        font-size: 13px;
-                        font-weight: bold;
+                        color: var(--Primary-White);
+                        @include --Font-Bold-14px;
                     }
                     p:nth-child(2) 
                     {
                         padding: 0;
                         margin: 0;
-                        color: #9C9CA4;
-                        font-family: 'Alegreya', serif;
-                        font-size: 10px;
-                        font-weight: bold;
+                        color: var(--Primary-Grey);
+                        @include --Font-Bold-10px;
                     }
                 }
                 .more-soon_text
                 {
                     width: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    @include Flex-Center-Center; 
                     p 
                     {
-                        color: white;
-                        font-family: ale;
-                        font-family: 'Alegreya', serif;
+                        color: var(--Primary-White);
                         font-size: 26px;
                         font-weight: bold;
                     }
@@ -95,53 +84,40 @@ body
             .projects_project:hover .project_description
             {
                 transform: translateY(-100%);
-                transition: all 1s ease;
+                transition: var(--Primary-Transition);
             }
         }
         .projects_button
         {
-            width: 39vw;
-            height: 45px;
-            background-color: #07071C;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 72px;
-            transition: all 1s ease;
+            @include --Big-Button-Desktop;
 
             .projects_button_download
             {
-                color: #fff;
+                color: var(--Primary-White);
                 text-decoration: none;
-                font-size: 20px;
-                font-weight: bold;
+                @include --Font-Bold-20px;
                 width: 100%;
                 height: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include Flex-Center-Center;
             }
         }
         .projects_button:hover
         {
-            background-color: #fff;
-            border: 2px solid #07071C;
-            box-sizing: border-box;
-            transition: all 1s ease;
+            @include --Hover-Button;
             .projects_button_download
             {
-                color: #07071C;
+                color: var(--Primary-Blue); 
             }
         }
         .main_projects:hover .projects_project:hover
         {
             opacity: 1;
-            transition: all 1s ease;
+            transition: var(--Primary-Transition);
         }
         .main_projects:hover .projects_project
         {
             opacity: 0.3;
-            transition: all 1s ease;
+            transition: var(--Primary-Transition);
         }
     }
 }
@@ -173,10 +149,10 @@ body
             }
             .projects_button
             {
-                width: 259px;
+                @include --Big-Button-Mobile;
                 .projects_button_download
                 {
-                    font-size: 14px;
+                    @include --Font-Bold-14px;
                 }
             }
         }

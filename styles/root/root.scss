@@ -1,0 +1,130 @@
+:root
+{
+    --Primary-White : #fff;
+    --Primary-Blue : #07071C;
+    --Primary-Grey : #808080;
+
+    --Primary-Font : 'Alegreya', serif;
+
+    --Infos-Widget-Shadow : 0px 0px 7px rgba(7, 7, 28, 0.09);
+    --Pictures-Project-Shadow : 0px 4px 20px rgba(7, 7, 28, 0.09);
+    --Projects-Widget-Shadow : 0px 4px 4px rgba(7, 7, 28, 0.09);
+
+    --Primary-Transition : all 1s ease;
+}
+
+@mixin --Font-Bold-50px
+{
+    font-family: var(--Primary-Font);
+    font-weight: bold;
+    font-size: 50px;
+}
+@mixin --Font-Bold-32px
+{
+    font-family: var(--Primary-Font);
+    font-weight: bold;
+    font-size: 32px;
+}
+@mixin --Font-Bold-20px
+{
+    font-family: var(--Primary-Font);
+    font-weight: bold;
+    font-size: 20px;
+}
+@mixin --Font-Bold-14px
+{
+    font-family: var(--Primary-Font);
+    font-weight: bold;
+    font-size: 14px;
+}
+@mixin --Font-Bold-10px
+{
+    font-family: var(--Primary-Font);
+    font-weight: bold;
+    font-size: 10px;
+}
+@mixin --Font-Regular-225px
+{
+    font-family: var(--Primary-Font);
+    font-weight: regular;
+    font-size: 22.5px;
+}
+@mixin --Font-Regular-20px
+{
+    font-family: var(--Primary-Font);
+    font-weight: regular;
+    font-size: 20px;
+}
+
+@mixin --Big-Bar {
+    width: 100%;
+    height: 8px;
+    color: var(--Primary-Blue);
+}
+@mixin --Small-Bar {
+    width: 96px;
+    height: 2px;
+    color: var(--Primary-Blue);
+}
+@mixin --Widget-Projects-Desktop {
+    width: 18vw;
+    height: 11.25vw;
+    color: var(--Primary-Blue);
+}
+@mixin --Widget-Projects-Mobile {
+    width: 100%;
+    height: 100%;
+    color: var(--Primary-Blue);
+}
+@mixin --Widget-Projects-Description {
+    width: 100%;
+    height: 54px;
+    background-color: var(--Primary-Blue);
+    padding : 14px 55px;
+}
+
+
+
+@mixin --Standard-Button 
+{
+    width: 200px;
+    height: 45px;
+    background-color: var(--Primary-Blue);
+    transition : var(--Primary-Transition);
+}
+@mixin --Big-Button-Desktop
+{
+    width: 39vw;
+    height: 45px;
+    margin-top: 72px;
+    background-color: var(--Primary-Blue);
+    transition : var(--Primary-Transition);
+    @include Flex-Center-Center;
+}
+@mixin --Big-Button-Mobile
+{
+    width: 100%;
+    height: 45px;
+    margin-top: 72px;
+    background-color: var(--Primary-Blue);
+    transition : var(--Primary-Transition);
+    @include Flex-Center-Center;
+}
+@mixin --Hover-Button 
+{
+    box-sizing : border-box;
+    border : 2px solid var(--Primary-Blue);
+    background-color: var(--Primary-White);
+    transition : var(--Primary-Transition);
+}
+
+
+
+
+
+@mixin Flex-Center-Center 
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

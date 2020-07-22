@@ -10,11 +10,11 @@
                 <span></span>
             </div>
             <div>
-                <a href="https://dribbble.com/Paul_Haddou">Dribbble</a>
+                <a href="pdf/CV_Paul-Haddou.pdf" download>CV</a>
                 <span></span>
             </div>
             <div>
-                <a href="https://www.behance.net/paulhaddou9348">Behance</a>
+                <a href="https://dribbble.com/Paul_Haddou">Dribbble</a>
                 <span></span>
             </div>
         </div>

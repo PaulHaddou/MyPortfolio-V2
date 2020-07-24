@@ -46,20 +46,20 @@
 @mixin --Font-Regular-225px
 {
     font-family: var(--Primary-Font);
-    font-weight: regular;
+    font-weight: 400;
     font-size: 22.5px;
 }
 @mixin --Font-Regular-20px
 {
     font-family: var(--Primary-Font);
-    font-weight: regular;
+    font-weight: 400;
     font-size: 20px;
 }
 
 @mixin --Big-Bar {
-    width: 100%;
-    height: 8px;
-    color: var(--Primary-Blue);
+    width: 187px;
+    height: 10px;
+    background-color: var(--Primary-Blue);
 }
 @mixin --Small-Bar {
     width: 96px;
@@ -116,6 +116,17 @@
     border : 2px solid var(--Primary-Blue);
     background-color: var(--Primary-White);
     transition : var(--Primary-Transition);
+}
+
+@mixin --Infos-Widget
+{
+    width: 100%;
+    background-color: var(--Primary-White);
+    box-shadow: var(--Infos-Widget-Shadow);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 64px;
 }
 
 

@@ -1,9 +1,20 @@
+:root {
+  --Primary-White: #fff;
+  --Primary-Blue: #07071C;
+  --Primary-Grey: #808080;
+  --Primary-Font: 'Alegreya', serif;
+  --Infos-Widget-Shadow: 0px 0px 7px rgba(7, 7, 28, 0.09);
+  --Pictures-Project-Shadow: 0px 4px 20px rgba(7, 7, 28, 0.09);
+  --Projects-Widget-Shadow: 0px 4px 4px rgba(7, 7, 28, 0.09);
+  --Primary-Transition: all 1s ease;
+}
+
 .footer {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px 0 50px 0;
+  margin: 160px 0 50px 0;
 }
 
 .footer .footer_footerContainer {
@@ -26,16 +37,16 @@
 
 .footer .footer_footerContainer .footerContainer_social div a {
   text-decoration: none;
-  color: #07071C;
-  font-family: 'Alegreya', serif;
-  font-size: 14px;
+  color: var(--Primary-Blue);
+  font-family: var(--Primary-Font);
   font-weight: bold;
+  font-size: 14px;
 }
 
 .footer .footer_footerContainer .footerContainer_social div span {
   width: 0%;
   height: 2px;
-  background-color: #07071C;
+  background-color: var(--Primary-Blue);
   transition: all 1s ease;
 }
 
@@ -49,10 +60,10 @@
   display: flex;
   justify-content: center;
   margin: 20px 0 0 0;
-  color: #9C9CA4;
-  font-family: 'Alegreya', serif;
-  font-size: 13px;
+  color: var(--Primary-Grey);
+  font-family: var(--Primary-Font);
   font-weight: bold;
+  font-size: 14px;
 }
 
 .footer .footer_footerContainer .footerContainer_made p {

@@ -109,16 +109,6 @@ body
                 color: var(--Primary-Blue); 
             }
         }
-        .main_projects:hover .projects_project:hover
-        {
-            opacity: 1;
-            transition: var(--Primary-Transition);
-        }
-        .main_projects:hover .projects_project
-        {
-            opacity: 0.3;
-            transition: var(--Primary-Transition);
-        }
     }
 }
 

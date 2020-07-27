@@ -1,19 +1,25 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mon intro</title>
-    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,500,700,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../../styles/navbar/navbar.min.css">
-    <link rel="stylesheet" href="../../../styles/project/project.min.css">
-    <link rel="stylesheet" href="../../../styles/footer/footer.min.css">
-    <link rel="stylesheet" href="../../../styles/navbarMobile/navbarMobile.min.css">
-    <link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon">
+<?php
+    // All the texts and usefull informations for the project
+    include '../../../includes/texts/texts-FR.php';
+    $project_Name_Path = $project_Motion_Animation_Logo_Name_Path;
+    $project_Img_Alt = $project_Motion_Animation_Logo_Img_Alt;
+    $project_Title = $project_Motion_Animation_Logo_Title;
+    $project_Name = $project_Motion_Animation_Logo_Name;
+    $project_Position_1 = $project_Motion_Animation_Logo_Position_1;
+    $project_Position_2 = $project_Motion_Animation_Logo_Position_2;
+    $project_Tools_1 = $project_Motion_Animation_Logo_Tools_1;
+    $project_Tools_2 = $project_Motion_Animation_Logo_Tools_2;
+    $project_Date = $project_Motion_Animation_Logo_Date;
+    $project_Paragraph_1 = $project_Motion_Animation_Logo_Paragraph_1;
+    $project_Paragraph_2 = $project_Motion_Animation_Logo_Paragraph_2;
+    $project_Paragraph_3 = $project_Motion_Animation_Logo_Paragraph_3;
+    $project_Paragraph_4 = $project_Motion_Animation_Logo_Paragraph_4;
+    $project_Paragraph_5 = $project_Motion_Animation_Logo_Paragraph_5;
 
-
-</head>
+   // Include the Head
+    $path_Files_Head = "../../../";
+    include '../../../includes/head.php';
+?>
 <body>
     <?php 
         // Links In the Navbar
@@ -24,37 +30,66 @@
     
         // Allows you to correctly indicate in the navbar in which section you are
         $spanProjects = $spanAbout = $spanDev = $spanDesign = '<span class="spanDisable" ></span>';
+
         
         include '../../../includes/navbar.php';
-        include '../../../includes/navbarMobile.php'
-
-    ?>
+        include '../../../includes/navbarMobile.php';
+    ?> 
     <div class="main">
         <div class="main_project">
-            <video playsinline autoplay loop muted src="../../../images/Intro_Paul-Haddou.mp4" alt="Vidéo de mon Intro réalisée en motion"></video>
-            <p>Motion de mon Intro</p>
-            <div class="project_description">
-                <div class="description_content">
+            <video playsinline autoplay muted loop class="main_project-img" src="../../../images/Projects/<?= $project_Name_Path ?>/Paul-Haddou_Project-<?= $project_Name_Path ?>_Main-Picture.mp4" alt="<?= $project_Img_Alt ?>"></video>
+            <h2 class="main_project-title"><?= $project_Name ?></h2>
+            <div class="main_project-infos">
+                <div class="infos_content">
                     <div class="content_texts">
                         <div class="texts_roles">
-                            <p>Postes Occupés</p>
-                            <p>Motion Designer</p>
+                            <p><?= $project_Infos_Positions ?></p>
+                            <p><?= $project_Position_1 ?></p>
+                            <p><?= $project_Position_2 ?></p>
                         </div>
-                        <div class="texts_softwares">
-                            <p>Logiciel utilisé</p>
-                            <p>After Effects</p>
+                        <div class="texts_tools">
+                            <p><?= $project_Infos_Technologies ?></p>
+                            <p><?= $project_Tools_1 ?></p>
+                            <p><?= $project_Tools_2 ?></p>
                         </div>
                         <div class="texts_date">
                             <p>Date</p>
-                            <p>2020</p>
+                            <p><?= $project_Date ?></p>
                         </div>
                     </div>
                     <div class="content_button">
-                        <div class="buttons_website">
-                            <a href="https://youtu.be/CrxWFwCGiI8">Vidéo</a>
+                        <div class="buttons_ytb">
+                            <a href="https://www.youtube.com/watch?v=CrxWFwCGiI8&feature=youtu.bef"><?= $project_Infos_Youtube ?></a>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="main_project-description_title">
+                <div class="main_project-description_title_step">
+                    <p class="main_project-description_title_step_title"><?= $project_Infos_Description_Title ?></p>
+                    <span class="main_project-description_title_step_underline"></span>
+                </div>
+            </div>
+            <div class="main_project-description_intro">
+                <p class="description_intro-Paragraph"><?= $project_Paragraph_1 ?></p>
+                <p class="description_intro-Paragraph"><?= $project_Paragraph_2 ?></p>
+                <p class="description_intro-Paragraph"><?= $project_Paragraph_3 ?></p>
+            </div>
+            <div class="main_project-description_bloc-text-picture">
+                <p class="description_bloc-text-picture_text"><?= $project_Paragraph_3 ?></p>
+                <img class="description_bloc-text-picture_picture" src="../../../images/Projects/<?= $project_Name_Path ?>/Paul-Haddou_Project-<?= $project_Name_Path ?>_Description-Picture_1.jpg" alt="<?= $project_Img_Alt ?>">
+            </div>
+            <div class="main_project-description_bloc-text-picture reverse-bloc">
+                <p class="description_bloc-text-picture_text"><?= $project_Paragraph_3 ?></p>
+                <img class="description_bloc-text-picture_picture" src="../../../images/Projects/<?= $project_Name_Path ?>/Paul-Haddou_Project-<?= $project_Name_Path ?>_Description-Picture_2.jpg" alt="<?= $project_Img_Alt ?>">
+            </div>
+            <div class="main_project-description_bloc-text-picture">
+                <p class="description_bloc-text-picture_text"><?= $project_Paragraph_3 ?></p>
+                <img class="description_bloc-text-picture_picture" src="../../../images/Projects/<?= $project_Name_Path ?>/Paul-Haddou_Project-<?= $project_Name_Path ?>_Description-Picture_3.jpg" alt="<?= $project_Img_Alt ?>">
+            </div>
+            <div class="main_project-description_bloc-text-picture reverse-bloc">
+                <p class="description_bloc-text-picture_text"><?= $project_Paragraph_3 ?></p>
+                <img class="description_bloc-text-picture_picture" src="../../../images/Projects/<?= $project_Name_Path ?>/Paul-Haddou_Project-<?= $project_Name_Path ?>_Description-Picture_4.jpg" alt="<?= $project_Img_Alt ?>">
             </div>
         </div>
     </div>

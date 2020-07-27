@@ -142,16 +142,6 @@ body .main .projects_button:hover .projects_button_download {
   color: var(--Primary-Blue);
 }
 
-body .main .main_projects:hover .projects_project:hover {
-  opacity: 1;
-  transition: var(--Primary-Transition);
-}
-
-body .main .main_projects:hover .projects_project {
-  opacity: 0.3;
-  transition: var(--Primary-Transition);
-}
-
 @media screen and (max-width: 900px) {
   body .main {
     height: fit-content;

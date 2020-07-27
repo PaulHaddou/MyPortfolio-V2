@@ -1,22 +1,20 @@
 <?php
     // All the texts and usefull informations for the project
     include '../../../includes/texts/texts-FR.php';
-    $project_Name_Path = $project_Studio_HD_Name_Path;
-    $project_Img_Alt = $project_Studio_HD_Img_Alt;
-    $project_Title = $project_Studio_HD_Title;
-    $project_Name = $project_Studio_HD_Name;
-    $project_Position_1 = $project_Studio_HD_Position_1;
-    $project_Position_2 = $project_Studio_HD_Position_2;
-    $project_Tools_1 = $project_Studio_HD_Tools_1;
-    $project_Tools_2 = $project_Studio_HD_Tools_2;
-    $project_Date = $project_Studio_HD_Date;
-    $project_Paragraph_1 = $project_Studio_HD_Paragraph_1;
-    $project_Paragraph_2 = $project_Studio_HD_Paragraph_2;
-    $project_Paragraph_3 = $project_Studio_HD_Paragraph_3;
-    $project_Paragraph_4 = $project_Studio_HD_Paragraph_4;
-    $project_Paragraph_5 = $project_Studio_HD_Paragraph_5;
+    $project_Name_Path = $project_Matt_Painting_Name_Path;
+    $project_Img_Alt = $project_Matt_Painting_Img_Alt;
+    $project_Title = $project_Matt_Painting_Title;
+    $project_Name = $project_Matt_Painting_Name;
+    $project_Position_1 = $project_Matt_Painting_Position_1;
+    $project_Position_2 = $project_Matt_Painting_Position_2;
+    $project_Tools_1 = $project_Matt_Painting_Tools_1;
+    $project_Tools_2 = $project_Matt_Painting_Tools_2;
+    $project_Date = $project_Matt_Painting_Date;
+    $project_Paragraph_1 = $project_Matt_Painting_Paragraph_1;
+    $project_Paragraph_2 = $project_Matt_Painting_Paragraph_2;
+    $project_Paragraph_3 = $project_Matt_Painting_Paragraph_3;
 
-    // Include the Head
+   // Include the Head
     $path_Files_Head = "../../../";
     include '../../../includes/head.php';
 ?>
@@ -34,7 +32,7 @@
         
         include '../../../includes/navbar.php';
         include '../../../includes/navbarMobile.php';
-    ?>
+    ?> 
     <div class="main">
         <div class="main_project">
             <img class="main_project-img" src="../../../images/Projects/<?= $project_Name_Path ?>/Paul-Haddou_Project-<?= $project_Name_Path ?>_Main-Picture.jpg" alt="<?= $project_Img_Alt ?>">
@@ -57,12 +55,9 @@
                             <p><?= $project_Date ?></p>
                         </div>
                     </div>
-                    <div class="content_buttons">
-                        <div class="buttons_website">
-                            <a href="https://www.haddou-dufourcq.com"><?= $project_Infos_Website ?></a>
-                        </div>
-                        <div class="buttons_github">
-                            <a href="https://github.com/PaulHaddou/Site_Haddou-Dufourcq">GitHub</a>
+                    <div class="content_button">
+                        <div class="buttons_pdf">
+                            <a href="../../../images/projects/<?= $project_Name_Path ?>/Paul-Haddou_Project-<?= $project_Name_Path ?>/_Full-Project.pdf" download><?= $project_Infos_Pdf ?></a>
                         </div>
                     </div>
                 </div>
@@ -79,12 +74,16 @@
                 <p class="description_intro-Paragraph"><?= $project_Paragraph_3 ?></p>
             </div>
             <div class="main_project-description_bloc-text-picture">
-                <p class="description_bloc-text-picture_text"><?= $project_Paragraph_4 ?></p>
-                <video playsinline autoplay muted loop class="description_bloc-text-picture_picture" src="../../../images/Projects/<?= $project_Name_Path ?>/Paul-Haddou_Project-<?= $project_Name_Path ?>_Description-Picture_1.mov" alt="<?= $project_Img_Alt ?>"></video>
+                <p class="description_bloc-text-picture_text"><?= $project_Paragraph_3 ?></p>
+                <img class="description_bloc-text-picture_picture" src="../../../images/Projects/<?= $project_Name_Path ?>/Paul-Haddou_Project-<?= $project_Name_Path ?>_Description-Picture_1.jpg" alt="<?= $project_Img_Alt ?>">
             </div>
             <div class="main_project-description_bloc-text-picture reverse-bloc">
-                <p class="description_bloc-text-picture_text"><?= $project_Paragraph_5 ?></p>
+                <p class="description_bloc-text-picture_text"><?= $project_Paragraph_3 ?></p>
                 <img class="description_bloc-text-picture_picture" src="../../../images/Projects/<?= $project_Name_Path ?>/Paul-Haddou_Project-<?= $project_Name_Path ?>_Description-Picture_2.jpg" alt="<?= $project_Img_Alt ?>">
+            </div>
+            <div class="main_project-description_bloc-text-picture">
+                <p class="description_bloc-text-picture_text"><?= $project_Paragraph_3 ?></p>
+                <img class="description_bloc-text-picture_picture" src="../../../images/Projects/<?= $project_Name_Path ?>/Paul-Haddou_Project-<?= $project_Name_Path ?>_Description-Picture_3.jpg" alt="<?= $project_Img_Alt ?>">
             </div>
         </div>
     </div>

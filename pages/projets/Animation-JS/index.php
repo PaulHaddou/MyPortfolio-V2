@@ -37,7 +37,7 @@
     ?> 
     <div class="main">
         <div class="main_project">
-            <img class="main_project-img" src="../../../images/Projects/<?= $project_Name_Path ?>/Paul-Haddou_Project-<?= $project_Name_Path ?>_Main-Picture.jpg" alt="<?= $project_Img_Alt ?>">
+            <video playsinline autoplay muted loop class="main_project-img" src="../../../images/Projects/<?= $project_Name_Path ?>/Paul-Haddou_Project-<?= $project_Name_Path ?>_Main-Picture.mov" alt="<?= $project_Img_Alt ?>"></video>
             <h2 class="main_project-title"><?= $project_Name ?></h2>
             <div class="main_project-infos">
                 <div class="infos_content">
@@ -59,7 +59,7 @@
                     </div>
                     <div class="content_button">
                         <div class="buttons_github">
-                        <a href="https://github.com/PaulHaddou/Site_Haddou-Dufourcq">GitHub</a>
+                        <a href="https://github.com/PaulHaddou/My-PortfolioV1_Animation-Intro">GitHub</a>
                         </div>
                     </div>
                 </div>

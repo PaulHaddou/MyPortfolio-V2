@@ -1,7 +1,8 @@
 <?php
        // Include the Head
        $path_Files_Head = '../../';
-       $project_Title = 'Paul Haddou - Design';
+       include '../../includes/texts/texts-FR.php';
+       $project_Title = $design_Title;
        include '../../includes/head.php';
 ?>
 <body>
@@ -18,7 +19,6 @@
         
         include '../../includes/navbar.php';
         include '../../includes/navbarMobile.php';
-        include '../../includes/texts/texts-FR.php';
         
     ?>
     <div class="main">

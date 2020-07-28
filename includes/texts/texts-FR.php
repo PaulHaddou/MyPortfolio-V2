@@ -29,7 +29,9 @@ $project_Infos_Youtube = 'Youtube';
 
 $project_Infos_Description_Title = 'Le Projet';
 
-
+$design_Title = 'Paul Haddou - Design';
+$developpement_Title = 'Paul Haddou - Développement';
+$all_Projects_Title = 'Paul Haddou - Tous les projets';
 
 
 
@@ -96,7 +98,7 @@ $project_Animation_JS_Tools_2 = $project_Tool_CSS;
 $project_Animation_JS_Date = '2019';
 $project_Animation_JS_Img_Alt = 'Image du projet d\'animation en full JS.';
 
-$project_Animation_JS_Paragraph_1 ='Lors de la V1 de mon portfolio, j’avais eu envie de réaliser une animation full JS qui servait “d’intro” à mon site. Cette courte animation ne fut jamais réelement mise en ligne car lorsque je l’ai achevée, j’avais envie de refaire mon portfolio : donc l’animation de collait plus. Néanmoins, étant satisfait du travail que j’avais réalisé sur le code : j’ai tenu à garder ce projet et le mettre sur ce folio. C’est d’ailleurs cette animation qui m’a inspirée pour la réalisation de ce motion.';
+$project_Animation_JS_Paragraph_1 ='Lors de la V1 de mon portfolio, j’avais eu envie de réaliser une animation full JS qui servait “d’intro” à mon site. Cette courte animation ne fut jamais réelement mise en ligne car lorsque je l’ai achevée, j’avais envie de refaire mon portfolio : donc l’animation de collait plus. Néanmoins, étant satisfait du travail que j’avais réalisé sur le code : j’ai tenu à garder ce projet et le mettre sur ce folio.';
 $project_Animation_JS_Paragraph_2 ='';
 $project_Animation_JS_Paragraph_3 ='';
 
@@ -325,9 +327,9 @@ $projectsArray = array (
 
 
 //// Tableau des Projets de Dev, utilisé sur la page Developpement. 
-$devloppementProjectsArray = array ();
+$developpementProjectsArray = array ();
 
-array_push($devloppementProjectsArray,$projectsArray[0],$projectsArray[6],$projectsArray[8]);
+array_push($developpementProjectsArray,$projectsArray[0],$projectsArray[6],$projectsArray[8]);
 
 //// Tableau des Projets de Design, utilisé sur la page Design. 
 $designProjectsArray = array ();

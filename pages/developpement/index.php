@@ -1,7 +1,8 @@
 <?php
        // Include the Head
        $path_Files_Head = '../../';
-       $project_Title = 'Paul Haddou - Développement';
+       include '../../includes/texts/texts-FR.php';
+       $project_Title = $developpement_Title;
        include '../../includes/head.php';
 ?>
 <body>
@@ -18,23 +19,22 @@
         
         include '../../includes/navbar.php';
         include '../../includes/navbarMobile.php';
-        include '../../includes/texts/texts-FR.php';
         
     ?>
     <div class="main">
         <div class="main_projects">
         <?php
-            $length = count($devloppementProjectsArray);
+            $length = count($developpementProjectsArray);
             for ($i = 0; $i <$length; $i++) 
             {
                 ?>
                     <div class="projects_project">
-                        <a href="<?= $devloppementProjectsArray[$i][3] ?>">
-                            <img src="<?= $devloppementProjectsArray[$i][2] ?>" alt="fff">
+                        <a href="<?= $developpementProjectsArray[$i][3] ?>">
+                            <img src="<?= $developpementProjectsArray[$i][2] ?>" alt="fff">
                         </a>
                         <div class="project_description">
-                            <p><?= $devloppementProjectsArray[$i][0] ?></p>
-                            <p><?= $devloppementProjectsArray[$i][1] ?></p>
+                            <p><?= $developpementProjectsArray[$i][0] ?></p>
+                            <p><?= $developpementProjectsArray[$i][1] ?></p>
                         </div>
                     </div>
                 <?php

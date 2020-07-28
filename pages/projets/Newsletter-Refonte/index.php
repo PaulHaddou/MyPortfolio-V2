@@ -61,7 +61,7 @@
                     </div>
                     <div class="content_button">
                         <div class="buttons_pdf">
-                            <a href="../../../images/projects/<?= $project_Name_Path ?>/Paul-Haddou_Project-<?= $project_Name_Path ?>/_Full-Project.pdf" download><?= $project_Infos_Pdf ?></a>
+                            <a href="../../../pdf/projects/Paul-Haddou_Project-<?= $project_Name_Path ?>_Full-Project.pdf" download><?= $project_Infos_Pdf ?></a>
                         </div>
                     </div>
                 </div>

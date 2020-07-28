@@ -1,6 +1,8 @@
 <?php
-   // Include the Head
+   // Include the Head, the texts. Define the path to the files and the title of the page
    $path_Files_Head = null;
+   include 'includes/texts/texts-FR.php';
+   $project_Title = $all_Projects_Title;
    include 'includes/head.php';
 ?>
 <body>
@@ -17,7 +19,6 @@
         
         include 'includes/navbar.php';
         include 'includes/navbarMobile.php';
-        include 'includes/texts/texts-FR.php';
         
     ?>
     <div class="main">

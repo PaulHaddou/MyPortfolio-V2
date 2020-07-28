@@ -28,7 +28,7 @@ body .main {
 }
 
 body .main .main_project {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

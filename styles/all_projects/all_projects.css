@@ -24,14 +24,14 @@ body .main {
   margin-top: 50px;
 }
 
-body .main .main_projects_1, body .main .main_projects_2, body .main .main_projects_3 {
+body .main .main_projects {
   width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-body .main .main_projects_1 .projects_project, body .main .main_projects_2 .projects_project, body .main .main_projects_3 .projects_project {
+body .main .main_projects .projects_project {
   background-color: var(--Primary-Blue);
   width: 18vw;
   height: 11.25vw;
@@ -43,7 +43,7 @@ body .main .main_projects_1 .projects_project, body .main .main_projects_2 .proj
   box-shadow: var(--Projects-Widget-Shadow);
 }
 
-body .main .main_projects_1 .projects_project a, body .main .main_projects_2 .projects_project a, body .main .main_projects_3 .projects_project a {
+body .main .main_projects .projects_project a {
   width: 100%;
   height: 100%;
   display: flex;
@@ -51,15 +51,15 @@ body .main .main_projects_1 .projects_project a, body .main .main_projects_2 .pr
   align-items: center;
 }
 
-body .main .main_projects_1 .projects_project a img, body .main .main_projects_2 .projects_project a img, body .main .main_projects_3 .projects_project a img {
+body .main .main_projects .projects_project a img {
   width: 100%;
 }
 
-body .main .main_projects_1 .projects_project a video, body .main .main_projects_2 .projects_project a video, body .main .main_projects_3 .projects_project a video {
+body .main .main_projects .projects_project a video {
   width: 111%;
 }
 
-body .main .main_projects_1 .projects_project .project_description, body .main .main_projects_2 .projects_project .project_description, body .main .main_projects_3 .projects_project .project_description {
+body .main .main_projects .projects_project .project_description {
   width: 100%;
   height: 54px;
   display: flex;
@@ -71,7 +71,7 @@ body .main .main_projects_1 .projects_project .project_description, body .main .
   transition: var(--Primary-Transition);
 }
 
-body .main .main_projects_1 .projects_project .project_description p:nth-child(1), body .main .main_projects_2 .projects_project .project_description p:nth-child(1), body .main .main_projects_3 .projects_project .project_description p:nth-child(1) {
+body .main .main_projects .projects_project .project_description p:nth-child(1) {
   padding: 0;
   margin: 0;
   color: var(--Primary-White);
@@ -80,7 +80,7 @@ body .main .main_projects_1 .projects_project .project_description p:nth-child(1
   font-size: 14px;
 }
 
-body .main .main_projects_1 .projects_project .project_description p:nth-child(2), body .main .main_projects_2 .projects_project .project_description p:nth-child(2), body .main .main_projects_3 .projects_project .project_description p:nth-child(2) {
+body .main .main_projects .projects_project .project_description p:nth-child(2) {
   padding: 0;
   margin: 0;
   color: var(--Primary-Grey);
@@ -89,20 +89,20 @@ body .main .main_projects_1 .projects_project .project_description p:nth-child(2
   font-size: 10px;
 }
 
-body .main .main_projects_1 .projects_project .more-soon_text, body .main .main_projects_2 .projects_project .more-soon_text, body .main .main_projects_3 .projects_project .more-soon_text {
+body .main .main_projects .projects_project .more-soon_text {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-body .main .main_projects_1 .projects_project .more-soon_text p, body .main .main_projects_2 .projects_project .more-soon_text p, body .main .main_projects_3 .projects_project .more-soon_text p {
+body .main .main_projects .projects_project .more-soon_text p {
   color: var(--Primary-White);
   font-size: 26px;
   font-weight: bold;
 }
 
-body .main .main_projects_1 .projects_project:hover .project_description, body .main .main_projects_2 .projects_project:hover .project_description, body .main .main_projects_3 .projects_project:hover .project_description {
+body .main .main_projects .projects_project:hover .project_description {
   transform: translateY(-100%);
   transition: var(--Primary-Transition);
 }
@@ -146,12 +146,15 @@ body .main .projects_button:hover .projects_button_download {
   body .main {
     height: fit-content;
   }
-  body .main .main_projects_1, body .main .main_projects_2, body .main .main_projects_3 {
+  body .main .main_projects {
     justify-content: center;
   }
-  body .main .main_projects_1 .projects_project, body .main .main_projects_2 .projects_project, body .main .main_projects_3 .projects_project {
+  body .main .main_projects .projects_project {
     width: 100%;
     height: 100%;
+  }
+  body .main .main_projects .more-soon_text {
+    height: 384px;
   }
   body .main .projects_button {
     width: 100%;

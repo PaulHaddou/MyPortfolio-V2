@@ -1,4 +1,6 @@
 <?php
+    $path_Files_Head = "../../../";
+    
     // All the texts and usefull informations for the project
     include '../../../includes/texts/texts-FR.php';
     $project_Name_Path = $project_Barathon_Name_Path;
@@ -16,7 +18,6 @@
     $project_Paragraph_4 = $project_Barathon_Paragraph_4;
 
    // Include the Head
-    $path_Files_Head = "../../../";
     include '../../../includes/head.php';
 ?>
 <body>

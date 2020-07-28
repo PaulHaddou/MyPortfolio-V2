@@ -305,15 +305,27 @@ $projectsArray = array (
 
     //array("titre","poste","image","link"),
 
-    array("$project_Studio_HD_Name","$project_Position_Webmaster - $project_Position_Front","$project_Studio_HD_Thumbnail","$project_Studio_HD_Link"),
-    array("$project_Motion_Animation_Logo_Name","$project_Position_Motion","$project_Motion_Animation_Logo_Thumbnail","$project_Motion_Animation_Logo_Link"),    
-    array("$project_Newsletter_Refonte_Name","$project_Position_UI","$project_Newsletter_Refonte_Thumbnail","$project_Newsletter_Refonte_Link"),    
-    array("$project_My_Pills_Name","$project_Position_UX - $project_Position_UI","$project_My_Pills_Thumbnail","$project_My_Pills_Link"),    
-    array("$project_Newsletter_BPCE_Name","$project_Position_UI - $project_Position_Writer","$project_Newsletter_BPCE_Thumbnail","$project_Newsletter_BPCE_Link"),    
-    array("$project_Affiches_Synerg_Name","$project_Position_Graphic","$project_Affiches_Synerg_Thumbnail","$project_Affiches_Synerg_Link"),
-    array("$project_Animation_JS_Name","$project_Position_Front","$project_Animation_JS_Thumbnail","$project_Animation_JS_Link"),    
-    array("$project_Exercice_Mise_en_Page_Name","$project_Position_UI","$project_Exercice_Mise_en_Page_Thumbnail","$project_Exercice_Mise_en_Page_Link"),    
-    array("$project_Barathon_Name","$project_Position_Swift","$project_Barathon_Thumbnail","$project_Barathon_Link"),
-    array("$project_Matt_Painting_Name","$project_Position_Graphic","$project_Matt_Painting_Thumbnail","$project_Matt_Painting_Link"),
-    array("$project_Affiche_Deadpool_Name","$project_Position_Graphic","$project_Affiche_Deadpool_Thumbnail","$project_Affiche_Deadpool_Link"),
+    array("$project_Studio_HD_Name","$project_Position_Webmaster - $project_Position_Front","$path_Files_Head$project_Studio_HD_Thumbnail","$path_Files_Head$project_Studio_HD_Link"),
+    array("$project_Motion_Animation_Logo_Name","$project_Position_Motion","$path_Files_Head$project_Motion_Animation_Logo_Thumbnail","$path_Files_Head$project_Motion_Animation_Logo_Link"),    
+    array("$project_Newsletter_Refonte_Name","$project_Position_UI","$path_Files_Head$project_Newsletter_Refonte_Thumbnail","$path_Files_Head$project_Newsletter_Refonte_Link"),    
+    array("$project_My_Pills_Name","$project_Position_UX - $project_Position_UI","$path_Files_Head$project_My_Pills_Thumbnail","$path_Files_Head$project_My_Pills_Link"),    
+    array("$project_Newsletter_BPCE_Name","$project_Position_UI - $project_Position_Writer","$path_Files_Head$project_Newsletter_BPCE_Thumbnail","$path_Files_Head$project_Newsletter_BPCE_Link"),    
+    array("$project_Affiches_Synerg_Name","$project_Position_Graphic","$path_Files_Head$project_Affiches_Synerg_Thumbnail","$path_Files_Head$project_Affiches_Synerg_Link"),
+    array("$project_Animation_JS_Name","$project_Position_Front","$path_Files_Head$project_Animation_JS_Thumbnail","$path_Files_Head$project_Animation_JS_Link"),    
+    array("$project_Exercice_Mise_en_Page_Name","$project_Position_UI","$path_Files_Head$project_Exercice_Mise_en_Page_Thumbnail","$path_Files_Head$project_Exercice_Mise_en_Page_Link"),    
+    array("$project_Barathon_Name","$project_Position_Swift","$path_Files_Head$project_Barathon_Thumbnail","$path_Files_Head$project_Barathon_Link"),
+    array("$project_Matt_Painting_Name","$project_Position_Graphic","$path_Files_Head$project_Matt_Painting_Thumbnail","$path_Files_Head$project_Matt_Painting_Link"),
+    array("$project_Affiche_Deadpool_Name","$project_Position_Graphic","$path_Files_Head$project_Affiche_Deadpool_Thumbnail","$path_Files_Head$project_Affiche_Deadpool_Link"),
     );
+
+
+
+//// Tableau des Projets de Dev, utilisé sur la page Developpement. 
+$devloppementProjectsArray = array ();
+
+array_push($devloppementProjectsArray,$projectsArray[0],$projectsArray[6],$projectsArray[8]);
+
+//// Tableau des Projets de Design, utilisé sur la page Design. 
+$designProjectsArray = array ();
+
+array_push($designProjectsArray,$projectsArray[1],$projectsArray[2],$projectsArray[3],$projectsArray[4],$projectsArray[5],$projectsArray[7],$projectsArray[9],$projectsArray[10]);

@@ -1,4 +1,6 @@
 <?php
+    $path_Files_Head = "../../../";
+
     // All the texts and usefull informations for the project
     include '../../../includes/texts/texts-FR.php';
     $project_Name_Path = $project_Newsletter_Refonte_Name_Path;
@@ -17,15 +19,15 @@
     $project_Paragraph_5 = $project_Newsletter_Refonte_Paragraph_5;
 
     // Include the Head
-    $path_Files_Head = "../../../";
+
     include '../../../includes/head.php';
 ?>
 <body>
     <?php 
         // Links In the Navbar
         $hrefProjects = '../../../';
-        $hrefdevelopment = '../../pages/development/';
-        $hrefDesign = '../../pages/design/';
+        $hrefDev = '../../developpement/';
+        $hrefDesign = '../../design/';
         $hrefAbout = '../../a-propos/';
     
         // Allows you to correctly indicate in the navbar in which section you are

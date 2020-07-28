@@ -1,4 +1,6 @@
 <?php
+    $path_Files_Head = "../../../";
+
     // All the texts and usefull informations for the project
     include '../../../includes/texts/texts-FR.php';
     $project_Name_Path = $project_My_Pills_Name_Path;
@@ -27,15 +29,15 @@
     $project_Infos_Description_Title_Step_3 = $project_My_Pills_Infos_Description_Title_Step_3;
 
     // Include the Head
-    $path_Files_Head = "../../../";
+
     include '../../../includes/head.php';
 ?>
 <body>
     <?php 
         // Links In the Navbar
         $hrefProjects = '../../../';
-        $hrefdevelopment = '../../pages/development/';
-        $hrefDesign = '../../pages/design/';
+        $hrefDev = '../../developpement/';
+        $hrefDesign = '../../design/';
         $hrefAbout = '../../a-propos/';
     
         // Allows you to correctly indicate in the navbar in which section you are

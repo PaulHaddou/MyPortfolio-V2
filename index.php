@@ -1,24 +1,13 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Paul Haddou</title>
-    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,500,700,800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/navbar/navbar.min.css">
-    <link rel="stylesheet" href="styles/all_projects/all_projects.min.css">
-    <link rel="stylesheet" href="styles/footer/footer.min.css">
-    <link rel="stylesheet" href="styles/navbarMobile/navbarMobile.min.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-
-</head>
+<?php
+   // Include the Head
+   $path_Files_Head = null;
+   include 'includes/head.php';
+?>
 <body>
     <?php 
         // Links In the Navbar
         $hrefProjects = '#';
-        $hrefdevelopment = 'pages/development/';
+        $hrefDev = 'pages/developpement/';
         $hrefDesign = 'pages/design/';
         $hrefAbout = 'pages/a-propos/';
     
@@ -32,7 +21,7 @@
         
     ?>
     <div class="main">
-        <div class="main_projects_1">
+        <div class="main_projects">
         <?php
             $length = count($projectsArray);
             for ($i = 0; $i < 1; $i++) 
@@ -63,7 +52,7 @@
                 </div>
             <?php
             }
-            for ($i = 2; $i < 4; $i++) 
+            for ($i = 2; $i < $length; $i++) 
             {
             ?>
                 <div class="projects_project">
@@ -76,44 +65,6 @@
                     </div>
                 </div>
             <?php
-            }
-        ?>
-        </div>
-        <div class="main_projects_2">
-        <?php
-            $length = count($projectsArray);
-            for ($i = 4; $i < 8; $i++) 
-            {
-        ?>
-            <div class="projects_project">
-                <a href="<?= $projectsArray[$i][3] ?>">
-                    <img src="<?= $projectsArray[$i][2] ?>" alt="fff">
-                </a>
-                <div class="project_description">
-                    <p><?= $projectsArray[$i][0] ?></p>
-                    <p><?= $projectsArray[$i][1] ?></p>
-                </div>
-            </div>
-        <?php
-            }
-        ?>
-        </div>
-        <div class="main_projects_3">
-        <?php
-            $length = count($projectsArray);
-            for ($i = 8; $i < $length; $i++) 
-            {
-        ?>
-            <div class="projects_project">
-                <a href="<?= $projectsArray[$i][3] ?>">
-                    <img src="<?= $projectsArray[$i][2] ?>" alt="fff">
-                </a>
-                <div class="project_description">
-                    <p><?= $projectsArray[$i][0] ?></p>
-                    <p><?= $projectsArray[$i][1] ?></p>
-                </div>
-            </div>
-        <?php
             }
         ?>
             <div class="projects_project more-soon">
@@ -131,4 +82,3 @@
     <script src="sources/burger.js"></script>
 </body>
 </html>
-<!---                    <video playsinline autoplay muted loop src="<?= $projectsArray[$i][2] ?>" alt="Motion de mon intro"></video> --->

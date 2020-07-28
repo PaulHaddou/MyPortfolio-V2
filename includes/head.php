@@ -11,5 +11,6 @@
     <link rel="stylesheet" href="<?= $path_Files_Head ?>styles/all_projects/all_projects.min.css">
     <link rel="stylesheet" href="<?= $path_Files_Head ?>styles/footer/footer.min.css">
     <link rel="stylesheet" href="<?= $path_Files_Head ?>styles/navbarMobile/navbarMobile.min.css">
+    <link rel="stylesheet" href="<?= $path_Files_Head ?>styles/about/about.min.css">
     <link rel="shortcut icon" href="<?= $path_Files_Head ?>favicon.ico" type="image/x-icon">
 </head>

@@ -31,6 +31,15 @@ $project_Infos_Description_Title = 'Le Projet';
 
 
 
+
+
+
+                                ///////////////////
+                                /////Projects//////
+                                ///////////////////
+
+
+
 //// Project Studio - HD
 $project_Studio_HD_Name = 'Studio Haddou / Dufourcq';
 $project_Studio_HD_Name_Path = 'Studio-HD';
@@ -291,14 +300,9 @@ $project_Motion_Animation_Logo_Paragraph_5 ='';
 
 
 
-
-
-
-
-
-
-
-
+                                ////////////////////////////////////
+                                /////Tableaux pour les projets//////
+                                ////////////////////////////////////
 
 //// Tableau des Projets, utilisé sur la home.
 $projectsArray = array (
@@ -329,3 +333,39 @@ array_push($devloppementProjectsArray,$projectsArray[0],$projectsArray[6],$proje
 $designProjectsArray = array ();
 
 array_push($designProjectsArray,$projectsArray[1],$projectsArray[2],$projectsArray[3],$projectsArray[4],$projectsArray[5],$projectsArray[7],$projectsArray[9],$projectsArray[10]);
+
+
+
+
+
+                                ////////////////////////////////////
+                                /////////////À Propos///////////////
+                                ////////////////////////////////////
+
+    
+                  
+$about_Title = 'Paul Haddou - À Propos';
+                           
+$about_Skills_Title = 'Mes Compétences';
+
+$about_Skills_Developpement_Title = 'Développement';
+$about_Skills_Developpement_Languages = 'HTML, CSS, SCSS, JS, PHP, Swift, Three.JS, MySQL';
+$about_Skills_Developpement_Softwares = 'GitHub, VSCode, Docker';
+
+$about_Skills_Design_Title = 'Design';
+$about_Skills_Design_Softwares_1 = 'Illustrator, Photoshop, After Effects, Premiere Pro';
+$about_Skills_Design_Softwares_2 = 'Figma, InVision';
+
+$about_Skills_3D_Softwares = 'Sketchup, V-Ray, Rhino';
+
+$about_Skills_Project_Management_Title = 'Gestion de Projet';
+$about_Skills_Project_Management_Softwares = 'Trello, Jira, Confluence, Notion';
+
+$about_Skills_Languages_Title = 'Langues';
+$about_Skills_Languages_Language_1 = 'Français Natif';
+$about_Skills_Languages_Language_2 = 'Anglais - Niveau B1';
+
+$about_Contact_Button = 'Contactez-moi !';
+
+$about_Resume_Title = 'Mon CV';
+$about_Resume_Button = 'Consultez-le !';

@@ -1,3 +1,15 @@
+:root {
+  --Primary-White: #fff;
+  --Primary-Blue: #07071C;
+  --Primary-Grey: #808080;
+  --Primary-Font: 'Alegreya', serif;
+  --Infos-Widget-Shadow: 0px 0px 7px rgba(7, 7, 28, 0.09);
+  --Pictures-Project-Shadow: 0px 4px 20px rgba(7, 7, 28, 0.09);
+  --Projects-Widget-Shadow: 0px 4px 4px rgba(7, 7, 28, 0.09);
+  --Navbar-Shadow: 0px 1px 4px rgba(0, 0, 0, 0.07);
+  --Primary-Transition: all 1s ease;
+}
+
 body {
   margin: 0;
 }
@@ -5,10 +17,10 @@ body {
 body .navbar {
   width: 100%;
   height: 100px;
-  background-color: #fff;
+  background-color: var(--Primary-White);
   display: flex;
   justify-content: center;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.07);
+  box-shadow: var(--Navbar-Shadow);
   position: fixed;
   z-index: 100;
 }
@@ -28,16 +40,15 @@ body .navbar .navbar_navbar .navbar-logo {
 body .navbar .navbar_navbar .navbar-logo a {
   width: 3.4vw;
   margin: 0;
-  font-family: 'Alegreya', serif;
-  font-size: 50px;
+  font-family: var(--Primary-Font);
   font-weight: bold;
-  color: #07071C;
+  font-size: 50px;
+  color: var(--Primary-Blue);
   text-decoration: none;
   letter-spacing: -0.36em;
 }
 
 body .navbar .navbar_navbar .navbar-sections {
-  width: 43.3vw;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -46,8 +57,8 @@ body .navbar .navbar_navbar .navbar-sections {
 body .navbar .navbar_navbar .navbar-sections .sections-links {
   height: 100%;
   display: flex;
-  width: 100%;
-  justify-content: space-between;
+  width: fit-content;
+  gap: 64px;
 }
 
 body .navbar .navbar_navbar .navbar-sections .sections-links div {
@@ -59,32 +70,32 @@ body .navbar .navbar_navbar .navbar-sections .sections-links div a {
   height: 100%;
   display: flex;
   align-items: center;
-  font-family: 'Alegreya', serif;
-  font-size: 16px;
+  font-family: var(--Primary-Font);
   font-weight: bold;
-  color: #07071C;
+  font-size: 14px;
+  color: var(--Primary-Blue);
   text-decoration: none;
 }
 
 body .navbar .navbar_navbar .navbar-sections .sections-links div span {
   height: 4px;
-  background-color: #07071C;
-  transition: all 1s ease;
+  background-color: var(--Primary-Blue);
+  transition: var(--Primary-Transition);
 }
 
 body .navbar .navbar_navbar .navbar-sections .sections-links div .spanActiv {
   width: 100%;
-  background-color: #07071C;
+  background-color: var(--Primary-Blue);
 }
 
 body .navbar .navbar_navbar .navbar-sections .sections-links div .spanDisable {
   width: 0%;
-  transition: all 1s ease;
+  transition: var(--Primary-Transition);
 }
 
 body .navbar .navbar_navbar .navbar-sections .sections-links div:hover .spanDisable {
   width: 100%;
-  transition: all 1s ease;
+  transition: var(--Primary-Transition);
 }
 
 body .navbar_background {

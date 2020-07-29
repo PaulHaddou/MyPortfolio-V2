@@ -10,11 +10,12 @@
                 <span></span>
             </div>
             <div>
-                <a href="pdf/CV_Paul-Haddou.pdf" download>CV</a>
+                <a href="<?= $path_Files_Head ?>pdf/CV_Paul-Haddou.pdf" download>CV</a>
                 <span></span>
             </div>
             <div>
-            <a href="<?= $path_Files_Head ?>pdf/CV_Paul-Haddou.pdf" download>CV</a>                <span></span>
+                <a href="https://dribbble.com/Paul_Haddou">Dribbble</a>
+                <span></span>
             </div>
         </div>
         <div class="footerContainer_made">

@@ -1,7 +1,6 @@
 
 <div class="navbarMobile">
     <div class="navbarMobile--logo">
-        <div class="logo--before"></div>
         <a href="<?= $hrefProjects ?>">HP</a>
         <div class="logo--burger">
             <div class="burger--spans">

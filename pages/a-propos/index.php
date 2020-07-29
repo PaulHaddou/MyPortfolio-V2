@@ -1,8 +1,10 @@
 <?php
         $path_Files_Head = '../../';
+        $path_Page_CSS = 'about';
         include '../../includes/texts/texts-FR.php';
         // Include the Head
         $project_Title = $about_Title;
+        $meta_Name = $about_Meta_Name;
         include '../../includes/head.php';
 ?>
     <body>

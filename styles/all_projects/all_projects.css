@@ -10,6 +10,7 @@
 }
 
 body {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +18,7 @@ body {
 }
 
 body .main {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,10 +26,11 @@ body .main {
 }
 
 body .main .main_projects {
-  width: 100%;
+  width: 80%;
   display: flex;
-  justify-content: space-between;
+  gap: 80px 38px;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 body .main .main_projects .projects_project {
@@ -39,7 +41,6 @@ body .main .main_projects .projects_project {
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 80px;
   box-shadow: var(--Projects-Widget-Shadow);
 }
 
@@ -154,10 +155,10 @@ body .main .projects_button:hover .projects_button_download {
     height: 100%;
   }
   body .main .main_projects .more-soon_text {
-    height: 384px;
+    height: 187px;
   }
   body .main .projects_button {
-    width: 100%;
+    width: 80%;
     height: 45px;
     margin-top: 72px;
     background-color: var(--Primary-Blue);

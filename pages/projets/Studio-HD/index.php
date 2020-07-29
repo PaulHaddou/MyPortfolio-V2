@@ -1,8 +1,10 @@
 <?php
     $path_Files_Head = "../../../";
+    $path_Page_CSS = 'project';
 
     // All the texts and usefull informations for the project
     include '../../../includes/texts/texts-FR.php';
+    $meta_Name = $project_Studio_HD_Meta_Name;
     $project_Name_Path = $project_Studio_HD_Name_Path;
     $project_Img_Alt = $project_Studio_HD_Img_Alt;
     $project_Title = $project_Studio_HD_Title;
@@ -82,7 +84,7 @@
             </div>
             <div class="main_project-description_bloc-text-picture">
                 <p class="description_bloc-text-picture_text"><?= $project_Paragraph_4 ?></p>
-                <video playsinline autoplay muted loop class="description_bloc-text-picture_picture" src="../../../images/Projects/<?= $project_Name_Path ?>/Paul-Haddou_Project-<?= $project_Name_Path ?>_Description-Picture_1.mov" alt="<?= $project_Img_Alt ?>"></video>
+                <video playsinline autoplay muted loop class="description_bloc-text-picture_picture" src="../../../images/Projects/<?= $project_Name_Path ?>/Paul-Haddou_Project-<?= $project_Name_Path ?>_Description-Picture_1.mp4" alt="<?= $project_Img_Alt ?>"></video>
             </div>
             <div class="main_project-description_bloc-text-picture reverse-bloc">
                 <p class="description_bloc-text-picture_text"><?= $project_Paragraph_5 ?></p>

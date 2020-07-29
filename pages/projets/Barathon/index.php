@@ -1,8 +1,10 @@
 <?php
     $path_Files_Head = "../../../";
-    
+    $path_Page_CSS = 'project';
+
     // All the texts and usefull informations for the project
     include '../../../includes/texts/texts-FR.php';
+    $meta_Name = $project_Barathon_Meta_Name;
     $project_Name_Path = $project_Barathon_Name_Path;
     $project_Img_Alt = $project_Barathon_Img_Alt;
     $project_Title = $project_Barathon_Title;

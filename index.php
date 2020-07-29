@@ -1,7 +1,9 @@
 <?php
    // Include the Head, the texts. Define the path to the files and the title of the page
    $path_Files_Head = null;
+   $path_Page_CSS = 'all_projects';
    include 'includes/texts/texts-FR.php';
+   $meta_Name = $all_Projects_Meta_Name;
    $project_Title = $all_Projects_Title;
    include 'includes/head.php';
 ?>

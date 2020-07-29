@@ -30,8 +30,13 @@ $project_Infos_Youtube = 'Youtube';
 $project_Infos_Description_Title = 'Le Projet';
 
 $design_Title = 'Paul Haddou - Design';
+$design_Meta_Name = 'Ensemble des projets de design que j\'ai pu entreprendre. J\'ai réalisé des projets qui touchent à du design UI / UX, à du motion ou encore à du graphisme.';
+
 $developpement_Title = 'Paul Haddou - Développement';
+$developpement_Meta_Name = 'Ensemble des projets de devellopement que j\'ai pu accomplir. J\'ai donc entrepris des projets de essentiellement de développement Front en utilisant notamment du SCSS, HTML, PHP, JS voir Three.JS.';
+
 $all_Projects_Title = 'Paul Haddou - Tous les projets';
+$all_Projects_Meta_Name = 'Ensemble des projets de design ou de développement que j\'ai pu faire aussi bien en tant que projets perso, que scolaires, que professionels. J\'ai dans l\'ensemble pu réaliser des projets qui touchent au design (UI / UX, motion, graphisme) qu\'au développement web (Front essentiellement)';
 
 
 
@@ -43,6 +48,7 @@ $all_Projects_Title = 'Paul Haddou - Tous les projets';
 
 
 //// Project Studio - HD
+$project_Studio_HD_Meta_Name = 'Projet réalisé pour le Studio HD, où j\'ai occupé le poste de Webmaster et de développeur Front.';
 $project_Studio_HD_Name = 'Studio Haddou / Dufourcq';
 $project_Studio_HD_Name_Path = 'Studio-HD';
 $project_Studio_HD_Title = 'Projet - Studio HD';
@@ -66,6 +72,7 @@ $project_Studio_HD_Paragraph_5 ='Le responsive du site a été travaillé afin d
 
 
 //// Project Affiches Synerg
+$project_Affiches_Synerg_Meta_Name = 'Projet réalisé pour ma campagne pour Synerg\'hetic, où j\'ai occupé le poste graphiste.';
 $project_Affiches_Synerg_Name = 'Affiches de campagne Synerg\'hetic';
 $project_Affiches_Synerg_Thumbnail = 'images/Thumbnails/Paul-Haddou_Thumbnail-Projects_Affiches-Synerg.jpg';
 $project_Affiches_Synerg_Link = 'pages/projets/Affiches-Synerg/';
@@ -86,6 +93,7 @@ $project_Affiches_Synerg_Paragraph_3 ='';
 
 
 //// Project Animation JS
+$project_Animation_JS_Meta_Name = 'Projet personel où j\'ai réalisé une animation JS servant d\'introduction à mon portfolio, j\'ai occupé le poste de développeur Front.';
 $project_Animation_JS_Name = 'Animation JS';
 $project_Animation_JS_Thumbnail = 'images/Thumbnails/Paul-Haddou_Thumbnail-Projects_Animation-JS.jpg';
 $project_Animation_JS_Link = 'pages/projets/Animation-JS/';
@@ -110,6 +118,7 @@ $project_Animation_JS_Paragraph_3 ='';
 
 
 //// Project Barathon
+$project_Barathon_Meta_Name = 'Projet d\'application Barathon réalisé durant mon cursus scolaire, j\'ai occupé le poste de développeur Swift.';
 $project_Barathon_Name = 'Barathon';
 $project_Barathon_Thumbnail = 'images/Thumbnails/Paul-Haddou_Thumbnail-Projects_Barathon.jpg';
 $project_Barathon_Link = 'pages/projets/Barathon/';
@@ -132,6 +141,7 @@ $project_Barathon_Paragraph_4 ='';
 
 
 //// Project Affiche Deadpool
+$project_Affiche_Deadpool_Meta_Name = 'Projet d\'affiche du film Deadpool 2 réalisé durant mon cursus scolaire, j\'ai occupé le poste de graphiste.';
 $project_Affiche_Deadpool_Name = 'Affiche Deadpool 2';
 $project_Affiche_Deadpool_Thumbnail = 'images/Thumbnails/Paul-Haddou_Thumbnail-Projects_Affiche-Deadpool.jpg';
 $project_Affiche_Deadpool_Link = 'pages/projets/Affiche-Deadpool/';
@@ -153,6 +163,7 @@ $project_Affiche_Deadpool_Paragraph_3 ='';
 
 
 //// Project Matt Painting
+$project_Matt_Painting_Meta_Name = 'Projet de Matt Painting réalisé durant mon cursus scolaire, j\'ai occupé le poste de Graphiste.';
 $project_Matt_Painting_Name = 'Matt Painting';
 $project_Matt_Painting_Thumbnail = 'images/Thumbnails/Paul-Haddou_Thumbnail-Projects_Matt-Painting.jpg';
 $project_Matt_Painting_Link = 'pages/projets/Matt-Painting/';
@@ -174,8 +185,9 @@ $project_Matt_Painting_Paragraph_3 ='';
 
 
 //// Project Exercice de mise en Page
+$project_Exercice_Mise_en_Page_Meta_Name = 'Exercice de mise en page réalisé durant mon cursus scolaire, j\'ai occupé le poste de designeur UI.';
 $project_Exercice_Mise_en_Page_Name = 'Mise en page';
-$project_Exercice_Mise_en_Page_Thumbnail = 'images/Thumbnails/Paul-Haddou_Thumbnail-Projects_Mise-en-Page-exercice.jpg';
+$project_Exercice_Mise_en_Page_Thumbnail = 'images/Thumbnails/Paul-Haddou_Thumbnail-Projects_Exercice-Mise-en-Page.jpg';
 $project_Exercice_Mise_en_Page_Link = 'pages/projets/Exercice-Mise-en-Page/';
 $project_Exercice_Mise_en_Page_Name_Path = 'Exercice-Mise-en-Page';
 $project_Exercice_Mise_en_Page_Title = 'Projet - Exercice de mise en page';
@@ -195,6 +207,7 @@ $project_Exercice_Mise_en_Page_Paragraph_3 ='';
 
 
 //// Project My Pills
+$project_My_Pills_Meta_Name = 'Projet My Pills réalisé durant mon cursus scolaire, j\'ai occupé le poste de designeur UX et designeur UI.';
 $project_My_Pills_Name = 'My Pills';
 $project_My_Pills_Thumbnail = 'images/Thumbnails/Paul-Haddou_Thumbnail-Projects_My-Pills.jpg';
 $project_My_Pills_Link = 'pages/projets/My-Pills/';
@@ -240,6 +253,7 @@ $project_My_Pills_Paragraph_12 = 'Au final, notre application posséde de nombre
 
 
 //// Project Newsletter Refonte
+$project_Newsletter_Refonte_Meta_Name = 'Projet personel de Refonte d\'une Newsletter, j\'ai occupé le poste de designeur UI.';
 $project_Newsletter_Refonte_Name = 'Newsletter Cuure';
 $project_Newsletter_Refonte_Thumbnail = 'images/Thumbnails/Paul-Haddou_Thumbnail-Projects_Newsletter-Refonte.jpg';
 $project_Newsletter_Refonte_Link = 'pages/projets/Newsletter-Refonte/';
@@ -262,6 +276,7 @@ $project_Newsletter_Refonte_Paragraph_5 ='';
 
 
 //// Project BPCE
+$project_Newsletter_BPCE_Meta_Name = 'Projet de Newsletter réaalisé pour la BPCE durant mon stage, j\'ai occupé le poste de designeur UI et de rédacteur.';
 $project_Newsletter_BPCE_Name = 'Newsletter BPCE';
 $project_Newsletter_BPCE_Thumbnail = 'images/Thumbnails/Paul-Haddou_Thumbnail-Projects_Newsletter-BPCE.jpg';
 $project_Newsletter_BPCE_Link = 'pages/projets/Newsletter-BPCE/';
@@ -282,6 +297,7 @@ $project_Newsletter_BPCE_Paragraph_3 ='';
 
 
 //// Project Motion Animation de Logo
+$project_Motion_Animation_Logo_Meta_Name = 'Projet de Motion permettant l\'animation d\'un logo réalisé durant mon cursus scolaire, j\'ai occupé le poste de motion designeur.';
 $project_Motion_Animation_Logo_Name = 'Motion animation de logo';
 $project_Motion_Animation_Logo_Name_Path = 'Motion-Animation-de-Logo';
 $project_Motion_Animation_Logo_Title = 'Projet - Motion d\'animation de logo';
@@ -346,6 +362,7 @@ array_push($designProjectsArray,$projectsArray[1],$projectsArray[2],$projectsArr
 
     
                   
+$about_Meta_Name = 'Page à propos servant à donner certaines informations à mon propos comme : un mail de contact, mon cv ou encore mes différentes compétences.';
 $about_Title = 'Paul Haddou - À Propos';
                            
 $about_Skills_Title = 'Mes Compétences';

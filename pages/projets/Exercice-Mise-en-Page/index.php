@@ -1,8 +1,10 @@
 <?php
     $path_Files_Head = "../../../";
+    $path_Page_CSS = 'project';
 
     // All the texts and usefull informations for the project
     include '../../../includes/texts/texts-FR.php';
+    $meta_Name = $project_Exercice_Mise_en_Page_Meta_Name;
     $project_Name_Path = $project_Exercice_Mise_en_Page_Name_Path;
     $project_Img_Alt = $project_Exercice_Mise_en_Page_Img_Alt;
     $project_Title = $project_Exercice_Mise_en_Page_Title;

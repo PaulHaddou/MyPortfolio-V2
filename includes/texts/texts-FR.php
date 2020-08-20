@@ -85,8 +85,8 @@ $project_Affiches_Synerg_Tools_2 = '';
 $project_Affiches_Synerg_Date = '2020';
 $project_Affiches_Synerg_Img_Alt = 'Image d\'une de mes affiches pour ma campagne de Synerg\'hetic.';
 
-$project_Affiches_Synerg_Paragraph_1 ='Il s’agisait de réaliser des affiches de campagnes pour ma candidature au poste de Président de Synerg’hetic.';
-$project_Affiches_Synerg_Paragraph_2 ='J’ai choisi de créer quatre affiches représentant chacune une facette de ma personalité mise en avant par un petit paragraphe et illustré par une image. Le tout, en respectant la charte graphique de la Junior.';
+$project_Affiches_Synerg_Paragraph_1 ='Il s\'agissait de réaliser des affiches de campagnes pour ma candidature au poste de Président de Synerg’hetic, la Junior-Entreprise de mon école.';
+$project_Affiches_Synerg_Paragraph_2 ='J’ai choisi de créer quatre affiches représentant selon moi chacune une facette de ma personnalité, mise en avant par un petit paragraphe et illustré par une image. Le tout, sur un ton humoristique et en respectant la charte graphique de la Junior-Entreprise.';
 $project_Affiches_Synerg_Paragraph_3 ='';
 
 
@@ -106,7 +106,7 @@ $project_Animation_JS_Tools_2 = $project_Tool_CSS;
 $project_Animation_JS_Date = '2019';
 $project_Animation_JS_Img_Alt = 'Image du projet d\'animation en full JS.';
 
-$project_Animation_JS_Paragraph_1 ='Lors de la V1 de mon portfolio, j’avais eu envie de réaliser une animation full JS qui servait “d’intro” à mon site. Cette courte animation ne fut jamais réelement mise en ligne car lorsque je l’ai achevée, j’avais envie de refaire mon portfolio : donc l’animation de collait plus. Néanmoins, étant satisfait du travail que j’avais réalisé sur le code : j’ai tenu à garder ce projet et le mettre sur ce folio.';
+$project_Animation_JS_Paragraph_1 ='J’avais, lors de la première version de mon portfolio, eu envie de réaliser une animation full js qui servirait d’introduction à mon site. ';
 $project_Animation_JS_Paragraph_2 ='';
 $project_Animation_JS_Paragraph_3 ='';
 
@@ -131,8 +131,8 @@ $project_Barathon_Tools_2 = '';
 $project_Barathon_Date = '2020';
 $project_Barathon_Img_Alt = 'Image du projet d\'application Barathon codée en Swift';
 
-$project_Barathon_Paragraph_1 ='Projet scolaire réalisé en fin de troisième année : il avait pour but de faire travailler une équipe autour de la création d’une application mobile. Nous avions 4 jours pour réfléchir et concevoir une application. Les pricipaux domaines de compétences mis en avant durant ce projet fut le design UX/UI ainsi que le developement mobile en Swift.';
-$project_Barathon_Paragraph_2 ='Notre projet était de réaliser une application permettant de créer ( et partager) une liste de bars à enchainer afin de réaliser un “Barathon”. Une fois une liste crée, l’utilisateur n’avait plus qu’à lancer le Barathon et suivre les indications de l’appli. Ainsi, cette dernière permettait d’indiquer un bra et de comment y aller en prenant les transports, à pied, ... Pour réaliser cette application, nous avions utilisé l’API Navitia qui permettait de récuperer des informations sur les transports en commun de différentes villes. Dans ce projet j’étais le seul en charge du developement Swift. Ce qui posa un problème de temps. Car en seulement 4J je devais attendre que l’on ai décidé d’une idée d’application et attendre les premiers visueles. Ce problème m’empécha donc de réaliser l’application dans un état “de haute fidélité”. Néanmoins, ceci m’a permis d’apprendre les bases du Swift de manière intensive.';
+$project_Barathon_Paragraph_1 ='Projet scolaire réalisé en fin de troisième année : il avait pour but de faire travailler une équipe autour de la création d’une application mobile. Nous avions quatre jours pour imaginer et concevoir une application. Les principaux domaines de compétences mis en avant durant ce projet furent le design UX/UI ainsi que le développement mobile en Swift.';
+$project_Barathon_Paragraph_2 ='Nous avons décidé de réaliser une application permettant de créer et de partager une liste de bars à visiter les uns après les autres afin de réaliser un “Barathon” dont le nom nous a été inspiré par le marathon. Une fois une liste de bars créée, l’utilisateur n’a plus qu’à lancer le Barathon et suivre les indications de l’application lui indiquant le premier bar, comment s’y rendre en prenant les transports, à pieds, etc. Pour réaliser cette application, nous avions utilisé l’API Navitia qui permettait de récupérer des informations sur les transports en commun de différentes villes. Le challenge était le fait d\'être seul en charge du développement swift sur ce projet en un temps très restreint : seulement quatre jours.';
 $project_Barathon_Paragraph_3 ='Mes camarades sur ce projet : Carla Compan, Emma Roméo, Claire Longuebray, Théo Julien et Pierre Joessel.';
 $project_Barathon_Paragraph_4 ='';
 
@@ -154,31 +154,31 @@ $project_Affiche_Deadpool_Tools_2 = '';
 $project_Affiche_Deadpool_Date = '2018';
 $project_Affiche_Deadpool_Img_Alt = 'Image du projet d\'affiche Deadpool 2';
 
-$project_Affiche_Deadpool_Paragraph_1 ='Projet scolaire visant à réaliser une affiche de film sous illustrator, il fut réalisé au cours de ma deuxième année de formation. Le but de cet exercie était simple : reprendre un film , créer une affiche et si possible jouer sur les mots / formes lors de la réalisation.';
-$project_Affiche_Deadpool_Paragraph_2 ='J’ai donc décidé de reprendre le film Deadpool 2 et d’en faire une affiche sur laquelle on peut retrouver les principaux personnages du film. J’ai donc joué sur les mots afin de représenter : Deadpool ( Dead poo L), Cable et Domino.';
+$project_Affiche_Deadpool_Paragraph_1 ='Projet scolaire visant à réaliser une affiche de film sous illustrator, il fut réalisé au cours de ma deuxième année de formation. Le but de cet exercice était de reprendre un film existant et de créer une nouvelle affiche en jouant sur les mots et les formes lors de la réalisation.';
+$project_Affiche_Deadpool_Paragraph_2 ='J’ai donc décidé de reprendre le film « Deadpool 2 » et d’en faire une affiche sur laquelle on peut retrouver les principaux personnages du film. J’ai donc joué sur les mots afin de représenter : Deadpool ( Dead poo L), Cable et Domino.';
 $project_Affiche_Deadpool_Paragraph_3 ='';
 
 
 
 
 
-//// Project Matt Painting
-$project_Matt_Painting_Meta_Name = 'Projet de Matt Painting réalisé durant mon cursus scolaire, j\'ai occupé le poste de Graphiste.';
-$project_Matt_Painting_Name = 'Matt Painting';
-$project_Matt_Painting_Thumbnail = 'images/Thumbnails/Paul-Haddou_Thumbnail-Projects_Matt-Painting.jpg';
-$project_Matt_Painting_Link = 'pages/projets/Matt-Painting/';
-$project_Matt_Painting_Name_Path = 'Matt-Painting';
-$project_Matt_Painting_Title = 'Projet - Matt Painting';
-$project_Matt_Painting_Position_1 = $project_Position_Graphic;
-$project_Matt_Painting_Position_2 = '';
-$project_Matt_Painting_Tools_1 = $project_Tool_Photoshop;
-$project_Matt_Painting_Tools_2 = '';
-$project_Matt_Painting_Date = '2018';
-$project_Matt_Painting_Img_Alt = 'Image du projet de Matt Painting';
+//// Project Matte Painting
+$project_Matte_Painting_Meta_Name = 'Projet de Matte Painting réalisé durant mon cursus scolaire, j\'ai occupé le poste de Graphiste.';
+$project_Matte_Painting_Name = 'Matte Painting';
+$project_Matte_Painting_Thumbnail = 'images/Thumbnails/Paul-Haddou_Thumbnail-Projects_Matte-Painting.jpg';
+$project_Matte_Painting_Link = 'pages/projets/Matte-Painting/';
+$project_Matte_Painting_Name_Path = 'Matte-Painting';
+$project_Matte_Painting_Title = 'Projet - Matte Painting';
+$project_Matte_Painting_Position_1 = $project_Position_Graphic;
+$project_Matte_Painting_Position_2 = '';
+$project_Matte_Painting_Tools_1 = $project_Tool_Photoshop;
+$project_Matte_Painting_Tools_2 = '';
+$project_Matte_Painting_Date = '2018';
+$project_Matte_Painting_Img_Alt = 'Image du projet de Matte Painting';
 
-$project_Matt_Painting_Paragraph_1 ='Cet exercice scolaire réalisé au cours de ma deuxième année de formation consistait à réaliser un matte painting réprésentant un monde “post-apocalyptique”. J’ai donc récupéré diverses images ici et là que j’ai retouchées et assemblées sur Photoshop.';
-$project_Matt_Painting_Paragraph_2 ='';
-$project_Matt_Painting_Paragraph_3 ='';
+$project_Matte_Painting_Paragraph_1 ='Cet exercice scolaire réalisé au cours de ma deuxième année de formation consistait à réaliser un matte painting représentant un monde “post-apocalyptique”. J’ai donc récupéré et assemblé diverses images que j’ai ensuite retouchées sur photoshop afin de donner cette atmosphère de fin du monde à mon image finale.';
+$project_Matte_Painting_Paragraph_2 ='';
+$project_Matte_Painting_Paragraph_3 ='';
 
 
 
@@ -198,8 +198,8 @@ $project_Exercice_Mise_en_Page_Tools_2 = '';
 $project_Exercice_Mise_en_Page_Date = '2019';
 $project_Exercice_Mise_en_Page_Img_Alt = 'Image du projet de mise en page';
 
-$project_Exercice_Mise_en_Page_Paragraph_1 ='Exercice réalisé au cours de ma seconde année de formation pour un cours d’UI. L’exercice était de produire quatre interfaces différentes en ne choisisant que 2 typos maximum, 2 couleurs maximum et en s’aidant des images/textes fournis. ';
-$project_Exercice_Mise_en_Page_Paragraph_2 ='Je suis donc parti sur une interface sobre. Pour cela j\'ai obté pour la EB Garamond et ses 2 graisses - Extra Bold pour les titres et les boutons & Regular pour le texte courant - car étant de la famille des Garaldes, je ne voyais guère d’autres typographies capables de représenter ce côté “sobre” que je recherchais. De plus, l’EB Garamond étant disponible sur Google Font : c’étais très pratique pour moi de l’utiliser au sein de figma.';
+$project_Exercice_Mise_en_Page_Paragraph_1 ='Ce projet a été réalisé au cours de ma seconde année de formation lors d’un cours d’UI. Il fallait produire quatre interfaces différentes en ne choisissant que 2 typos (maximum), 2 couleurs (maximum) et en s’aidant des images et des textes fournis.';
+$project_Exercice_Mise_en_Page_Paragraph_2 ='J’ai souhaité faire quelque chose d’assez sobre, par conséquent mon choix s’est porté sur les typos suivantes : EBGaramond et ses deux graisses - Extra Bold pour les titres et les boutons & Regular pour le texte courant - car étant de la famille des Garaldes, je ne voyais guère d’autres typographies capables de représenter ce côté “sobre” que je recherchais.';
 $project_Exercice_Mise_en_Page_Paragraph_3 ='';
 
 
@@ -221,29 +221,29 @@ $project_My_Pills_Date = '2020';
 $project_My_Pills_Img_Alt = 'Image illustrant le projet My Pills';
 
 
-$project_My_Pills_Paragraph_1 ='Ce  projet réalisé en groupe au cours de ma troisième année de cours, avait pour but de réfléchir sur tout l’user expérience d’une application à but médical.';
-$project_My_Pills_Paragraph_2 ='Ce projet avait 2 phases : tout d’abord une phase de réflexion puis une phase de conception graphique ( wireframes, maquettes, ...). Au cours de ce projet, j’ai donc participé aussi bien à la reflexion qu’à la conception graphique.';
+$project_My_Pills_Paragraph_1 ='Ce projet réalisé en groupe au cours de ma troisième année de cours avait pour but de réfléchir à l’user expérience d’une application à but médical.';
+$project_My_Pills_Paragraph_2 ='Nous avons travaillé en deux phases distinctes : tout d’abord une phase de réflexion conceptuelle et pratique suivie d’une phase de conception graphique ( wireframes, maquettes, ...). Au cours de ce projet, j’ai donc participé aussi bien à la réflexion qu’à la conception graphique.';
 $project_My_Pills_Paragraph_3 ='Mes camarades sur ce projet : Louise Bonnaves, Pierre Joessel, Alexis Greux, Matthias Gander';
 
 $project_My_Pills_Infos_Description_Title_Step_1 = 'Phase 1 : Démarche UX';
 
-$project_My_Pills_Paragraph_4 ='Au commencement nous avons mis en place un questionnaire afin de cerner les besoins que pourrait avoir un utilisateur de notre application. Nous avons donc interviewé une personne atteint  de sclérose en plaque afin d’avoir un début de réflexion sur quel type d’application pourrait lui être utile. Ce questionnaire nous a permis de trouver notre problématique qui allait nous aider à bien cerner notre application.';
+$project_My_Pills_Paragraph_4 ='Nous avons au départ mis en place un questionnaire afin de cerner les besoins que pourrait avoir un utilisateur de notre application. Nous avons donc interviewé une personne atteinte de sclérose en plaque afin d’avoir un début de réflexion sur le type d’application qui pourrait lui être utile. Ses réponses nous ont permis de trouver la problématique qui allait nous guider dans l’élaboration de notre application.';
 
 $project_My_Pills_Paragraph_5 ='“ Comment assurer une prise de traitement quotidienne en permettant au patient d’éviter tout risque d’oubli ? ”';
 
-$project_My_Pills_Paragraph_6 ='Avec cette problématique, nous nous sommes lancé dans la réalisation d’une empaty map. Cette dernière nous a permit de réfléchir à toutes les fonctionalités indispensable à notre application. Afin, de la rendre unique, pratique et indispensable.';
+$project_My_Pills_Paragraph_6 ='Avec cette problématique, nous nous sommes lancés dans la réalisation d’une empaty map qui nous a permis de réfléchir à toutes les fonctionnalités indispensables à notre application. Afin de la rendre unique, pratique et utile.';
 
 $project_My_Pills_Infos_Description_Title_Step_2 = 'Phase 2 : Conception graphique';
 
-$project_My_Pills_Paragraph_7 = 'Une fois toutes les fonctionnalités trouvées, nous sommes partis sur la création de wireframes. Après de nombreuses itérations, nous avons trouvé nos wireframes suffisament bonnes pour partir sur la création de maquettes hautes-fidélité.';
+$project_My_Pills_Paragraph_7 = 'Une fois toutes les fonctionnalités trouvées, nous nous sommes concentrés sur la création de wireframes, puis sur la création de maquettes haute-fidélité.';
 
 $project_My_Pills_Infos_Description_Title_Step_3 = 'Les différentes fonctionnalités ';
 
-$project_My_Pills_Paragraph_8 = 'Tout d’abord, après avoir renseigné toutes les informations utiles pour son traitement l’utilisateur arrive sur la page principale de l’application. Celle où est indiquée ses heures de rappel, une horloge lui permettant de savoir rapidement dans combien de temps sera son prochain rappel s’il prends sa prise maintenant. De plus, il peut utiliser la petite cloche pour faire sonner son boitier s’il l’a perdu.';
-$project_My_Pills_Paragraph_9 = 'Puis vient la fonctionnalité qui permet d’indiquer à l’utilisateur combien de médicament il doit emporter avec lui pour tenir durant tout son voyage. Pour cela, il suffit de renseigner les dates de départ et de retour. À la suite de quoi, une pop-up apparait pour indiquer le nombre exact de médicaments à emporter.';
-$project_My_Pills_Paragraph_10 = 'Dans une volonté de rassurer, nous avons mis en place une section “Conseils”. Dedans, nous avons voulu permettre à l’utilisateur de retrouver rapidement ce qu’il doit faire en cas d’oublis, une FAQ concernant sa maladie et pleins d’autres infos lui permettant de mieux comprendre sa maladie, le rassurer et le guider. Ainsi, cela fait une source de stress en moins.';
-$project_My_Pills_Paragraph_11 = 'La dernière section permet quant à elle, de prévenir l’utilisateur si jamais son stock de médicament arrive à son terme et si c’est le cas, lui permet de faire la demande de renouvellement auprès de son médecin. Si jamais le renouvellement est possible, l’ordonnance est directement disponible dans l’application et l’utilisateur peut commander son traitement en pharmacie. Si le renouvellement est impossible, une option prise de RDV est disponible.';
-$project_My_Pills_Paragraph_12 = 'Au final, notre application posséde de nombreuses fonctionalités. Elle permet de régler ses rappels journaliers et régle automatiquement selon le temps prescrit entre deux prises. Mais l’application permet aussi de savoir précisément le nombre de pillules que l’on doit amener lors d’un départ en voyage, permet de faire sonner son pilulier si on l’a perdu et enfin : avoir un rappel en cas d’ordonnace qui arrive à son terme. En plus, MyPills permet de contacter son médecin pour - dans les cas ou cela est possible - refaire une ordonance et ainsi éviter au patient de se déplacer. Enfin, une fois l’odonance renouvellé il ne suffit plus que de passer commande à la pharmacie la plus proche et ce directement depuis l’application. MyPills se veut être l’application de suivi de traitement la plus compléte du marché.';
+$project_My_Pills_Paragraph_8 = 'Après avoir renseigné toutes les informations utiles pour son traitement, l’utilisateur arrive sur la page principale de l’application. C’est sur cette page d’accueil que sont indiquées ses heures de rappel ainsi qu’une horloge lui permettant de savoir quand sera son prochain rappel s’il prends sa prise maintenant. Il peut utiliser la petite cloche pour faire sonner son boîtier s’il l’a perdu.';
+$project_My_Pills_Paragraph_9 = 'Vient  ensuite la fonctionnalité permettant d’indiquer à l’utilisateur combien de médicaments il doit emporter avec lui selon la durée de son séjour lors d’un voyage. Il suffit pour cela de renseigner les dates d’aller et de retour. Une fenêtre pop-up apparaît avec le nombre exact de cachets à emporter dans ses bagages.';
+$project_My_Pills_Paragraph_10 = 'Dans une volonté d’accompagner de rassurer l’utilisateur, nous avons mis en place une section “Conseils” au sein de l’application. L’utilisateur peut rapidement retrouver toutes les informations nécessaires sur la marche à suivre en cas d’oubli d’une prise, une FAQ concernant sa maladie et pleins d’autres informations lui permettant de mieux comprendre sa maladie, de le rassurer et le guider au quotidien. ';
+$project_My_Pills_Paragraph_11 = 'La dernière section permet quant à elle de prévenir l’utilisateur quand son stock de médicaments arrive à son terme et de lui permettre de faire la demande de renouvellement d’ordonnance auprès de son médecin. Si  le renouvellement est automatiquement possible, l’ordonnance est directement disponible dans l’application et l’utilisateur peut commander son traitement en pharmacie. Si le renouvellement est impossible, une option prise de RDV est disponible.';
+$project_My_Pills_Paragraph_12 = 'En conclusion, notre application possède de nombreuses fonctionnalités afin de répondre au mieux aux différents besoins de l’utilisateur et de l’accompagner au quotidien dans le traitement de sa maladie. MyPills se veut être l’application de suivi de traitement la plus complète du marché.';
 
 
 
@@ -266,8 +266,8 @@ $project_Newsletter_Refonte_Tools_2 = '';
 $project_Newsletter_Refonte_Date = '2020';
 $project_Newsletter_Refonte_Img_Alt = 'Image illustrant le projet de refonte d\'une newsletter';
 
-$project_Newsletter_Refonte_Paragraph_1 ='Il s’agit d’un projet personnel visant à essayer de refaire une newsletter existante en respectant la charte de la boite.  La newsletter devait servir à relancer un client qui avait déjà commandé afin de recuellir son avis sur l’offre à laquelle il avait souscrit.';
-$project_Newsletter_Refonte_Paragraph_2 ='Pour se faire, je me suis inspiré de ce qu’il se faisait déjà sur leur site et dans leurs newsletter afin de mettre en place le design et la structure de la newsletter. Les images présentes sur le site étant de qualité, je les ai intégrées et m’en suis servis afin d’illustrer le texte. Au vu de l’exercice, j’ai entiérement écris le texte afin d’avoir une certaine quantité de contenu à mettre en forme et de mettre en application mes qualités de rédaction acquise lors de mon dernier stage ( qui consistait aussi à la rédaction d’une newsletter ).';
+$project_Newsletter_Refonte_Paragraph_1 ='Il s’agit d’un projet personnel visant à essayer de refaire une newsletter existante en respectant la charte de l’entreprise. La newsletter devait servir à relancer un client ayant déjà commandé afin de recueillir son avis sur l’offre à laquelle il avait souscrit.';
+$project_Newsletter_Refonte_Paragraph_2 ='Pour ce faire, je me suis inspiré de la charte graphique de leur site et de leurs newsletters afin de mettre en place le design et la structure de cette nouvelle newsletter. Les images présentes sur leur site étant de qualité, je les ai intégrées afin d’illustrer le texte. Le texte à été entièrement réécrit afin d’avoir une certaine quantité de contenu à mettre en forme et de mettre en application mes compétences de rédaction acquises lors de mon dernier stage.';
 $project_Newsletter_Refonte_Paragraph_3 ='';
 $project_Newsletter_Refonte_Paragraph_4 ='';
 $project_Newsletter_Refonte_Paragraph_5 ='';
@@ -289,8 +289,8 @@ $project_Newsletter_BPCE_Tools_2 = $project_Tool_Mail_Chimp;
 $project_Newsletter_BPCE_Date = '2019';
 $project_Newsletter_BPCE_Img_Alt = 'Image illustrant le projet de Newsletter réalisé pour BPCE.';
 
-$project_Newsletter_BPCE_Paragraph_1 ='Il s’agit de l’une de mes missions que j’ai eu au cours de mon stage de fin de 2ème année. Durant ce stage, j’avais pour travail de tenir informé les différents testeurs des évolutions de leur application. Pour ce faire, j’étais chargé de la rédaction et de la conception graphique d’une newsletter.';
-$project_Newsletter_BPCE_Paragraph_2 ='Chaque semaine je devais donc réunir différents membres des équipes impliquées dans la phase de test de l’application. Une fois leurs retours donnés, je devais selectionner les informations que je jugeais importantes et je commencais la mise en page. Mon maître de stage ma laissé carte blanche au niveau du ton et du design de la newsletter. M’adressant à des personnes travaillant dans un milieu très cadré et sérieux je me suis dit que le meilleur moyen de communiquer était d’employer un ton très décontracté à l’écrit, utiliser une typo pour les titres “cool” et en ajoutant des icon afin d’illustrer les différentes parties. Une fois la mise en page de la newsletter terminée, je l’envoyais à près de 700 personnes grâce à MailChimp.';
+$project_Newsletter_BPCE_Paragraph_1 ='L’une des missions au cours de mon stage de fin de 2ème année au sein du groupe bpce (banque populaire caisse d’épargne) était la rédaction d’une newsletter. Le but de cette newsletter hebdomadaire était de tenir informés les différents testeurs au sein du groupe des évolutions de leur application en bêta test. ';
+$project_Newsletter_BPCE_Paragraph_2 ='J’étais donc chargé de la rédaction et de la conception graphique et devais chaque semaine réunir différents membres des équipes impliquées dans la phase de test de l’application. Une fois leurs retours donnés, il me fallait sélectionner les informations les plus importantes et les mettre en page. J’étais libre de décider ton et du design que je souhaitais employer pour rendre cette newsletter accessible et agréable à lire. M’adressant à des personnes travaillant dans un milieu très cadré et sérieux j’ai pensé que le meilleur moyen de communiquer et d’attirer l’attention était d’employer un ton décontracté à l’écrit et d’utiliser une typo plus « cool » pour les titres. L’utilisation des icônes était très utile afin d’illustrer les différentes parties. Une fois la mise en page de la newsletter terminée, je l’envoyais à près de 700 personnes grâce à MailChimp.';
 $project_Newsletter_BPCE_Paragraph_3 ='';
 
 
@@ -310,8 +310,8 @@ $project_Motion_Animation_Logo_Tools_2 = '';
 $project_Motion_Animation_Logo_Date = '2020';
 $project_Motion_Animation_Logo_Img_Alt = 'Vidéo illustrant le projet de d\'Animation de logo en Motion';
 
-$project_Motion_Animation_Logo_Paragraph_1 ='C’était un projet scolaire qui avait pour but de nous initier aux bases du motion. Nous avons donc pendant une semaine eu des cours initiatiques à l’utilisation d’After Effect. Le but final était de pouvoir réaliser une courte vidéo d’une dizaines de secondes. Ce motion est donc ce que j’ai produit à la fin de cette semaine. ';
-$project_Motion_Animation_Logo_Paragraph_2 ='J’avais déjà réalisé une animation de mon nom-prénom pour mon site, mais c’était en full JS et je n’étais pas totalement satisfait du résultat. J’ai donc voulu me servir de cette semaine initiatique afin de me refaire une autre animation. Le résultat est plutôt concluant pour ma part, est m’a permit de vraiment bien voir les bases du motion et d’After Effects. Cela a même attisé ma curiosité et m’a donné envie d’en faire plus.';
+$project_Motion_Animation_Logo_Paragraph_1 ='Ce projet avait pour intention de nous initier aux bases du motion. Nous avons donc pendant une semaine eu des cours initiatiques à l’utilisation d’after effect. Le but était de pouvoir réaliser une courte vidéo d’une dizaines de secondes. Ce motion est le résultat de cette semaine d’initiation.';
+$project_Motion_Animation_Logo_Paragraph_2 ='J’avais déjà réalisé une animation de mon nom et prénom pour mon site en full js et n’étais pas totalement satisfait du résultat. Cette initiation à after effect m’a permis de réaliser une nouvelle animation avec un résultat plus concluant.';
 $project_Motion_Animation_Logo_Paragraph_3 ='';
 $project_Motion_Animation_Logo_Paragraph_4 ='';
 $project_Motion_Animation_Logo_Paragraph_5 ='';
@@ -336,7 +336,7 @@ $projectsArray = array (
     array("$project_Animation_JS_Name","$project_Position_Front","$path_Files_Head$project_Animation_JS_Thumbnail","$path_Files_Head$project_Animation_JS_Link"),    
     array("$project_Exercice_Mise_en_Page_Name","$project_Position_UI","$path_Files_Head$project_Exercice_Mise_en_Page_Thumbnail","$path_Files_Head$project_Exercice_Mise_en_Page_Link"),    
     array("$project_Barathon_Name","$project_Position_Swift","$path_Files_Head$project_Barathon_Thumbnail","$path_Files_Head$project_Barathon_Link"),
-    array("$project_Matt_Painting_Name","$project_Position_Graphic","$path_Files_Head$project_Matt_Painting_Thumbnail","$path_Files_Head$project_Matt_Painting_Link"),
+    array("$project_Matte_Painting_Name","$project_Position_Graphic","$path_Files_Head$project_Matte_Painting_Thumbnail","$path_Files_Head$project_Matte_Painting_Link"),
     array("$project_Affiche_Deadpool_Name","$project_Position_Graphic","$path_Files_Head$project_Affiche_Deadpool_Thumbnail","$path_Files_Head$project_Affiche_Deadpool_Link"),
     );
 

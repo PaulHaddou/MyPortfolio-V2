@@ -12,4 +12,5 @@
     <link rel="stylesheet" href="<?= $path_Files_Head ?>styles/footer/footer.min.css">
     <link rel="stylesheet" href="<?= $path_Files_Head ?>styles/navbarMobile/navbarMobile.min.css">
     <link rel="shortcut icon" href="<?= $path_Files_Head ?>favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="<?= $path_Files_Head ?>images/apple-touch-icon.png">
 </head>

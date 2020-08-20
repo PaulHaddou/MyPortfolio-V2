@@ -6,6 +6,7 @@
   --Infos-Widget-Shadow: 0px 0px 7px rgba(7, 7, 28, 0.09);
   --Pictures-Project-Shadow: 0px 4px 20px rgba(7, 7, 28, 0.09);
   --Projects-Widget-Shadow: 0px 4px 4px rgba(7, 7, 28, 0.09);
+  --Navbar-Shadow: 0px 1px 4px rgba(0, 0, 0, 0.07);
   --Primary-Transition: all 1s ease;
 }
 
@@ -288,6 +289,7 @@ body .main .main_project .main_project-description_quote p {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   color: var(--Primary-White);
   font-size: 49px;
   font-weight: 800;
@@ -297,7 +299,6 @@ body .main .main_project .main_project-description_quote p {
 
 body .main .main_project .main_project-description_picture_full_width {
   width: 100vw;
-  height: fit-content;
   margin-top: 120px;
   display: flex;
   justify-content: center;
@@ -305,7 +306,6 @@ body .main .main_project .main_project-description_picture_full_width {
 
 body .main .main_project .main_project-description_picture_full_width .description_picture_full_width {
   width: 100%;
-  height: auto;
   box-shadow: var(--Pictures-Project-Shadow);
 }
 
@@ -399,7 +399,6 @@ body .main .main_project .main_project-description_conclusion-text .description_
   }
   body .main .main_project .main_project-description_picture_full_width {
     width: 150vw;
-    height: auto;
   }
 }
 

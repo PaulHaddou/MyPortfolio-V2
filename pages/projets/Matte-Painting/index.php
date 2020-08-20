@@ -4,19 +4,19 @@
     
     // All the texts and usefull informations for the project
     include '../../../includes/texts/texts-FR.php';
-    $meta_Name = $project_Matt_Painting_Meta_Name;
-    $project_Name_Path = $project_Matt_Painting_Name_Path;
-    $project_Img_Alt = $project_Matt_Painting_Img_Alt;
-    $project_Title = $project_Matt_Painting_Title;
-    $project_Name = $project_Matt_Painting_Name;
-    $project_Position_1 = $project_Matt_Painting_Position_1;
-    $project_Position_2 = $project_Matt_Painting_Position_2;
-    $project_Tools_1 = $project_Matt_Painting_Tools_1;
-    $project_Tools_2 = $project_Matt_Painting_Tools_2;
-    $project_Date = $project_Matt_Painting_Date;
-    $project_Paragraph_1 = $project_Matt_Painting_Paragraph_1;
-    $project_Paragraph_2 = $project_Matt_Painting_Paragraph_2;
-    $project_Paragraph_3 = $project_Matt_Painting_Paragraph_3;
+    $meta_Name = $project_Matte_Painting_Meta_Name;
+    $project_Name_Path = $project_Matte_Painting_Name_Path;
+    $project_Img_Alt = $project_Matte_Painting_Img_Alt;
+    $project_Title = $project_Matte_Painting_Title;
+    $project_Name = $project_Matte_Painting_Name;
+    $project_Position_1 = $project_Matte_Painting_Position_1;
+    $project_Position_2 = $project_Matte_Painting_Position_2;
+    $project_Tools_1 = $project_Matte_Painting_Tools_1;
+    $project_Tools_2 = $project_Matte_Painting_Tools_2;
+    $project_Date = $project_Matte_Painting_Date;
+    $project_Paragraph_1 = $project_Matte_Painting_Paragraph_1;
+    $project_Paragraph_2 = $project_Matte_Painting_Paragraph_2;
+    $project_Paragraph_3 = $project_Matte_Painting_Paragraph_3;
 
    // Include the Head
 

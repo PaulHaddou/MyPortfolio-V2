@@ -1,19 +1,22 @@
 
 <div class="navbarMobile">
-    <div class="navbarMobile--logo">
+    <div class="navbarMobile_logo">
         <a href="<?= $hrefProjects ?>">HP</a>
-        <div class="logo--burger">
-            <div class="burger--spans">
+        <div class="logo_burger">
+            <div class="burger_spans">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
         </div>
     </div>
-    <div class="navbarMobile--links">
-        <a href="<?= $hrefProjects ?>">Tous les projets</a>
-        <a href="<?= $hrefDev ?>">Développement</a>
-        <a href="<?= $hrefDesign ?>">Design</a>
-        <a href="<?= $hrefAbout ?>">À propos</a>
+    <div class="navbarMobile_links">
+        <a href="<?= $hrefProjects ?>"><?= $navbar_All_Projects ?></a>
+        <a href="<?= $hrefDev ?>"><?= $navbar_Development ?></a>
+        <a href="<?= $hrefDesign ?>"><?= $navbar_Design ?></a>
+        <a href="<?= $hrefAbout ?>"><?= $navbar_About ?></a>
+        <div class="navbarMobile_Language">
+            <?= $language ?>
+        </div> 
     </div>
 </div>

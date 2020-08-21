@@ -6,20 +6,23 @@
         <div class="navbar-sections">
             <div class="sections-links">
                 <div>
-                    <a href="<?= $hrefProjects ?>">Tous les projets</a>
+                    <a href="<?= $hrefProjects ?>"><?= $navbar_All_Projects ?></a>
                     <?= $spanProjects ?>
                 </div>
                 <div>
-                    <a href="<?= $hrefDev ?>">Développement</a>
+                    <a href="<?= $hrefDev ?>"><?= $navbar_Development ?></a>
                     <?= $spanDev ?>
                 </div>
                 <div>
-                    <a href="<?= $hrefDesign ?>">Design</a>
+                    <a href="<?= $hrefDesign ?>"><?= $navbar_Design ?></a>
                     <?= $spanDesign ?>
                 </div>
                 <div>
-                    <a href="<?= $hrefAbout ?>">À propos</a>
+                    <a href="<?= $hrefAbout ?>"><?= $navbar_About ?></a>
                     <?= $spanAbout ?>
+                </div> 
+                <div class="sections-links_language">
+                    <?= $language ?>
                 </div> 
             </div>
         </div>

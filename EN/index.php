@@ -1,26 +1,26 @@
 <?php
    // Include the Head, the texts. Define the path to the files and the title of the page
-   $path_Files_Head = null;
+   $path_Files_Head = '../';
    $path_Page_CSS = 'all_projects';
-   include 'includes/texts/texts-FR.php';
+   include '../includes/texts/texts-EN.php';
    $meta_Name = $all_Projects_Meta_Name;
    $project_Title = $all_Projects_Title;
-   include 'includes/head.php';
+   include '../includes/head.php';
 ?>
 <body>
     <?php 
         // Links In the Navbar
         $hrefProjects = '#';
-        $hrefDev = 'pages/developpement/';
+        $hrefDev = 'pages/development/';
         $hrefDesign = 'pages/design/';
-        $hrefAbout = 'pages/a-propos/';
+        $hrefAbout = 'pages/about/';
     
         // Allows you to correctly indicate in the navbar in which section you are
         $spanAbout = $spanDev = $spanDesign = '<span class="spanDisable" ></span>';
         $spanProjects = '<span class="spanActiv" ></span>';
         
-        include 'includes/navbar.php';
-        include 'includes/navbarMobile.php';
+        include '../includes/navbar.php';
+        include '../includes/navbarMobile.php';
         
     ?>
     <div class="main">
@@ -80,7 +80,7 @@
             <a class="projects_button_download" href="pdf/CV_Paul-Haddou.pdf" download><?= $projects_Portfolio_Pdf_Button ?></a>
         </div>
     </div>
-    <?php include 'includes/footer.php' ?>
+    <?php include '../includes/footer.php' ?>
     
     <script src="sources/burger.js"></script>
 </body>

@@ -1,5 +1,37 @@
 <?php
 
+
+$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$url = parse_url($actual_link);
+$url_home = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/';
+
+if ($actual_link == $url_home)
+{
+  $switchLanguage = str_replace(array("V2/"),array("V2/EN/"), $url['path']);
+
+} else
+{
+  $switchLanguage = str_replace(array("V2/","developpement","a-propos","projets","Animation-JS","Newsletter-BPCE","Poster-Deadpool","Motion-Animation-Logo","Newsletter-Refonte","Exercice-Mise-en-Page","Affiches-Synerg"),array("V2/EN/","development","about","projects","JS-Animation","BPCE-Newsletter","Deadpool-Poster","Motion-Logo-Animation","Newsletter-Redesign","Page-Layout-Exercise","Synerg-Posters"), $url['path']);
+
+}
+
+
+$language = '<div class="language-Choosen"><a href="#">Fr</a><span class="language-Choosen_Span"></span></div><p>/</p><div class="language-Not-Choosen"><a href="'.$switchLanguage.'" >En</a><span class="language-Not-Choosen_Span"></span></div>';
+
+
+////// Navbar
+
+$navbar_All_Projects = 'Tous les projets';
+$navbar_Development = 'Développement';
+$navbar_Design = 'Design';
+$navbar_About = 'À propos';
+
+
+$projects_Portfolio_Pdf_Button = 'Mon portfolio au format PDF';
+$projects_Soon = '+ Bientôt';
+
+
+
 $project_Position_Webmaster = 'Webmaster';
 $project_Position_Motion = 'Motion Designer';
 $project_Position_Front = 'Dev Front-End';
@@ -33,7 +65,7 @@ $design_Title = 'Paul Haddou - Design';
 $design_Meta_Name = 'Ensemble des projets de design que j\'ai pu entreprendre. J\'ai réalisé des projets qui touchent à du design UI / UX, à du motion ou encore à du graphisme.';
 
 $developpement_Title = 'Paul Haddou - Développement';
-$developpement_Meta_Name = 'Ensemble des projets de devellopement que j\'ai pu accomplir. J\'ai donc entrepris des projets de essentiellement de développement Front en utilisant notamment du SCSS, HTML, PHP, JS voir Three.JS.';
+$developpement_Meta_Name = 'Ensemble des projets de développement que j\'ai pu accomplir. J\'ai donc entrepris des projets de essentiellement de développement Front en utilisant notamment du SCSS, HTML, PHP, JS voir Three.JS.';
 
 $all_Projects_Title = 'Paul Haddou - Tous les projets';
 $all_Projects_Meta_Name = 'Ensemble des projets de design ou de développement que j\'ai pu faire aussi bien en tant que projets perso, que scolaires, que professionels. J\'ai dans l\'ensemble pu réaliser des projets qui touchent au design (UI / UX, motion, graphisme) qu\'au développement web (Front essentiellement)';

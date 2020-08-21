@@ -1,12 +1,12 @@
-let burger = document.querySelector('.burger--spans');
-let navbarLinks = document.querySelector('.navbarMobile--links');
-let spanBurgerTop = document.querySelector('.burger--spans span:nth-child(1)');
-let spanBurgerMid = document.querySelector('.burger--spans span:nth-child(2)');
-let spanBurgerBottom = document.querySelector('.burger--spans span:nth-child(3)');
-let linkBurgerFirst = document.querySelector('.navbarMobile--links a:nth-child(1)');
-let linkBurgerSecond = document.querySelector('.navbarMobile--links a:nth-child(2)');
-let linkBurgerThird = document.querySelector('.navbarMobile--links a:nth-child(3)');
-let linkBurgerFourth = document.querySelector('.navbarMobile--links a:nth-child(4)');
+let burger = document.querySelector('.burger_spans');
+let navbarLinks = document.querySelector('.navbarMobile_links');
+let spanBurgerTop = document.querySelector('.burger_spans span:nth-child(1)');
+let spanBurgerMid = document.querySelector('.burger_spans span:nth-child(2)');
+let spanBurgerBottom = document.querySelector('.burger_spans span:nth-child(3)');
+let linkBurgerFirst = document.querySelector('.navbarMobile_links a:nth-child(1)');
+let linkBurgerSecond = document.querySelector('.navbarMobile_links a:nth-child(2)');
+let linkBurgerThird = document.querySelector('.navbarMobile_links a:nth-child(3)');
+let linkBurgerFourth = document.querySelector('.navbarMobile_links a:nth-child(4)');
 let click = "none";
 
 burger.addEventListener( 'click', () =>
